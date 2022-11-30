@@ -37,19 +37,13 @@ mfilepath = fileparts(fq_mfilename);
 output_args = [];
 
 if ~exist('session_metrics_datafile_fqn', 'var') || isempty(session_metrics_datafile_fqn)
-	%InputPath = fullfile('/', 'space', 'data_local', 'moeller', 'DPZ', 'taskcontroller', 'SCP_DATA', 'ANALYSES', 'hms-beagle2', '2018');
-	InputPath = fullfile('/', 'space', 'data_local', 'moeller', 'DPZ', 'taskcontroller', 'SCP_DATA', 'ANALYSES', 'hms-beagle2', '2019');
-	InputPath = fullfile('/', 'space', 'data_local', 'moeller', 'DPZ', 'taskcontroller', 'SCP_DATA', 'ANALYSES', 'hms-beagle2', '2019');
-	
 	[sys_status, host_name] = system('hostname');
 	host_name = host_name(1:end-1); % last char of host name result is ascii 10 (LF)
 	host_name = strtrim(host_name);
 	
-	if regexp(host_name, 'MAC38078')
-		%InputPath = fullfile('/', 'space', 'data_local', 'moeller', 'DPZ', 'taskcontroller', 'SCP_DATA', 'ANALYSES', 'MAC38078', '2019');
-		InputPath = fullfile('/Volumes', 'Seagate5TB02_Main2TB', 'space', 'data_local', 'moeller', 'DPZ', 'taskcontroller', 'SCP_DATA', 'ANALYSES', 'MAC38078', '2019');
-	end
-	
+	SCPDirs = GetDirectoriesByHostName('local');
+	InputPath = fullfile(SCPDirs.SCP_DATA_BaseDir, 'SCP_DATA', 'ANALYSES', SCPDirs.CurrentShortHostName, '2019');
+		
 	if ~isempty(project_name)
 		InputPath = fullfile(InputPath, project_name);
 	end

@@ -31,23 +31,19 @@ if ~exist('project_name', 'var') || isempty(project_name)
 	project_name = 'BoS_manuscript';
 end
 
-if ispc
-    folder = 'Z:\taskcontroller\SCP_DATA\ANALYSES\PC1000\2018\CoordinationCheck';
-    OutputPath = folder;
-else
 
-    %folder = fullfile('/', 'Volumes', 'social_neuroscience_data', 'taskcontroller', 'SCP_DATA', 'ANALYSES', 'hms-beagle2', '2019', 'CoordinationCheck');
-    %folder = fullfile('/', 'Users', 'smoeller', 'DPZ', 'taskcontroller', 'SCP_DATA', 'ANALYSES', 'hms-beagle2', '2019', 'CoordinationCheck');
-	InputPath = fullfile('/', 'space', 'data_local', 'moeller', 'DPZ', 'taskcontroller', 'SCP_DATA', 'ANALYSES', 'hms-beagle2', '2019');
-	
-	if ~isempty(project_name)
-		InputPath = fullfile(InputPath, project_name);
-	end
-	
-	folder =fullfile(InputPath, 'CoordinationCheck');	
-	
-    OutputPath = fullfile(InputPath, '4BoSPaper2019');
+
+SCPDirs = GetDirectoriesByHostName('local');
+InputPath = fullfile(SCPDirs.SCP_DATA_BaseDir, 'SCP_DATA', 'ANALYSES', SCPDirs.CurrentShortHostName, '2019');
+
+if ~isempty(project_name)
+	InputPath = fullfile(InputPath, project_name);
 end
+
+folder =fullfile(InputPath, 'CoordinationCheck');
+
+OutputPath = fullfile(InputPath, '4BoSPaper2019');
+
 
 if ~isdir(OutputPath)
 	mkdir(OutputPath);
