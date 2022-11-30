@@ -1,0 +1,1731 @@
+********************
+Experiment	   0014_DAGDFGR.v014.20.20190603.01.SCP_01
+Computer	  SCP-CTRL-01
+Date	6/12/2019	Time	3:35 PM
+Core random seed	  1595557597
+*******************
+SubjectA	  RN
+SubjectB	  Linus
+OnlyPlayVideo	  False
+HumanExperiment	  False
+HumanTraining	  False
+Visible_TrialInfoOnScreenText	  True
+Selected Item_VideoPLayer	  expressionClips20171121h2641820x1024
+InitialRandomizationBiasModeCode	  1
+Experimental_Operator	  SM
+
+###################
+LOGGING.SessionDate: 20190612
+LOGGING.SessionLogFileName: 20190612T153453.A_RN.B_Linus.SCP_01
+LOGGING.SessionDir: C:\SCP_DATA\SCP-CTRL-01\SESSIONLOGS\2019\190612\20190612T153453.A_RN.B_Linus.SCP_01.sessiondir
+LOGGING.SessionFQN: C:\SCP_DATA\SCP-CTRL-01\SESSIONLOGS\2019\190612\20190612T153453.A_RN.B_Linus.SCP_01.sessiondir\20190612T153453.A_RN.B_Linus.SCP_01.triallog.txt
+LOGGING.SessionTrackerLogDir: C:\SCP_DATA\SCP-CTRL-01\SESSIONLOGS\2019\190612\20190612T153453.A_RN.B_Linus.SCP_01.sessiondir\trackerlogfiles
+LOGGING.ItemSeparator: ; 
+LOGGING.ArraySeparator: | 
+LOGGING.ReportVersion: 8
+###################
+
+PROXIMITYSENSORSHEADER; DI_line_address; DI_port_address; InvertSignal; IsHigh; ChangeTime_ms; Name; 
+PROXIMITYSENSORSTYPES; Byte; Int32; Boolean; Boolean; clTime; String; 
+PROXIMITYSENSORS; 1; 0; False; False; 0; ProxSensor_right_A; 
+
+PROXIMITYSENSORSHEADER; DI_line_address; DI_port_address; InvertSignal; IsHigh; ChangeTime_ms; Name; 
+PROXIMITYSENSORSTYPES; Byte; Int32; Boolean; Boolean; clTime; String; 
+PROXIMITYSENSORS; 2; 0; False; False; 0; ProxSensor_left_A; 
+
+PROXIMITYSENSORSHEADER; DI_line_address; DI_port_address; InvertSignal; IsHigh; ChangeTime_ms; Name; 
+PROXIMITYSENSORSTYPES; Byte; Int32; Boolean; Boolean; clTime; String; 
+PROXIMITYSENSORS; 4; 0; False; False; 0; ProxSensor_right_B; 
+
+PROXIMITYSENSORSHEADER; DI_line_address; DI_port_address; InvertSignal; IsHigh; ChangeTime_ms; Name; 
+PROXIMITYSENSORSTYPES; Byte; Int32; Boolean; Boolean; clTime; String; 
+PROXIMITYSENSORS; 8; 0; True; False; 0; ProxSensor_left_B; 
+
+ENUMHEADER; EnumName; ABORT_NO_ABORT; ABORT_JAW; ABORT_BODY; ABORT_USE_INCORRECT_HAND; ABORT_DIRTY_SENSORS; ABORT_WRONG_TARGET_SELECTED; ABORT_RELEASE_SENSOR_HOLD_STATE; ABORT_EYE_FIX_ACQ_STATE; ABORT_HND_FIX_ACQ_STATE; ABORT_EYE_FIX_HOLD_STATE; ABORT_HND_FIX_HOLD_STATE; ABORT_EYE_TAR_ACQ_STATE; ABORT_HND_TAR_ACQ_STATE; ABORT_EYE_TAR_HOLD_STATE; ABORT_HND_TAR_HOLD_STATE; ABORT_EYE_TAR_ACQ_INV_STATE; ABORT_HND_TAR_ACQ_INV_STATE; ABORT_EYE_TAR_HOLD_INV_STATE; ABORT_HND_TAR_HOLD_INV_STATE; ABORT_EYE_CUE_ON_STATE; ABORT_HND_CUE_ON_STATE; ABORT_EYE_MEM_PER_STATE; ABORT_HND_MEM_PER_STATE; ABORT_EYE_DEL_PER_STATE; ABORT_HND_DEL_PER_STATE; UNSPECIFIED; WRONG_HAND_FIRST; WRONG_HAND_SECOND; EARLY_HAND_FIX_RELEASE; NO_HAND_FIX_ACQUISITION; EARLY_HAND_TARGET_RELEASE; NO_HAND_TARGET_ACQUISITION; MANUAL_TRIAL_ABORT; 
+ENUMTYPES; String; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; 
+ENUM; AbortReasons; 0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21; 22; 23; 24; 25; 26; 27; 28; 29; 30; 31; 32; 
+
+ENUMHEADER; EnumName; NO_OUTCOME; REWARD; ABORT; ABORT_BY_OTHER; 
+ENUMTYPES; String; Int32; Int32; Int32; Int32; 
+ENUM; Outcomes; 0; 1; 2; 3; 
+
+ENUMHEADER; EnumName; none; left; not_left; right; not_right; both; not_both; 
+ENUMTYPES; String; Int32; Int32; Int32; Int32; Int32; Int32; Int32; 
+ENUM; ReachEffectors; 0; 1; 2; 3; 4; 5; 6; 
+
+ENUMHEADER; EnumName; right_A; left_A; right_B; left_B; 
+ENUMTYPES; String; Int32; Int32; Int32; Int32; 
+ENUM; PrxSensors; 0; 1; 2; 3; 
+
+ENUMHEADER; EnumName; SubjectA; SubjectB; 
+ENUMTYPES; String; Int32; Int32; 
+ENUM; Subjects; 0; 1; 
+
+ENUMHEADER; EnumName; NONE; DIRECT_REPEAT; DELAYED_REPEAT; 
+ENUMTYPES; String; Int32; Int32; Int32; 
+ENUM; CorrectionTrialMethods; 0; 1; 2; 
+
+ENUMHEADER; EnumName; NoParadigm; DAGDirectFreeGazeReaches; 
+ENUMTYPES; String; Int32; Int32; 
+ENUM; Paradigms; 0; 1; 
+
+ENUMHEADER; EnumName; None; DirectFreeGazeReaches; DirectFreeGazeFreeChoice; InformedChoice; InformedDirectedReach; ProximitySensorHoldOnly; IntialTargetOnly; 
+ENUMTYPES; String; Int32; Int32; Int32; Int32; Int32; Int32; Int32; 
+ENUM; TrialTypes; 0; 1; 2; 3; 4; 5; 6; 
+
+ENUMHEADER; EnumName; NoState; InitializeParadigm; Wait4HandSensors; InitialHoldDelay; ShowInitialTargets; ShowInitialTargetsHold; CueTargetDelay; ShowTargets; ShowTargetsHold; TargetRewardDelay; EvaluateOutcome; ITI; Abort; ShowChoiceTargets; ShowChoiceTargetsHold; PauseState; 
+ENUMTYPES; String; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; 
+ENUM; DAGDirectFreeGazeReaches; 0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 
+
+ENUMHEADER; EnumName; NONE; DIRECT_REPEAT; DELAYED_REPEAT; 
+ENUMTYPES; String; Int32; Int32; Int32; 
+ENUM; CorrectionTrialMethods; 0; 1; 2; 
+
+ENUMHEADER; EnumName; NONE; GUI; ALL_EQUAL; MANUAL; GENERICMATRIX; BOSMATRIXV01; BOSTEMPCOMPV01; BOSTEMPCOMPV02; 
+ENUMTYPES; String; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; 
+ENUM; RewardFunctions; 0; 1; 2; 3; 4; 5; 6; 7; 
+
+ENUMHEADER; EnumName; NONE; TASK_HIT; MANUAL; 
+ENUMTYPES; String; Int32; Int32; Int32; 
+ENUM; RewardReasons; 0; 1; 2; 
+
+ENUMHEADER; EnumName; NONE; GUI; ALL_EQUAL; MANUAL; GENERICMATRIX; BOSMATRIXV01; BOSTEMPCOMPV01; BOSTEMPCOMPV02; 
+ENUMTYPES; String; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; 
+ENUM; RewardFunctions; 0; 1; 2; 3; 4; 5; 6; 7; 
+
+ENUMHEADER; EnumName; NONE; PQLabs_G5S; ELO_PCAP; 
+ENUMTYPES; String; Int32; Int32; Int32; 
+ENUM; TouchDeviceTypes; 0; 1; 2; 
+
+ENUMHEADER; EnumName; NoCode; DAG_SQUARE; DAG_VERTICALCHOICE; DAG_VERTICALCHOICE_LEFT35MM; DAG_VERTICALCHOICE_RIGHT35MM; 
+ENUMTYPES; String; Int32; Int32; Int32; Int32; Int32; 
+ENUM; TouchTargetPositioningMethodCodes; 0; 1; 2; 3; 4; 
+
+ENUMHEADER; EnumName; NONE; ALL; INFORMEDTRIALS; 
+ENUMTYPES; String; Int32; Int32; Int32; 
+ENUM; TrialTypeSets; 0; 1; 2; 
+
+ENUMHEADER; EnumName; NONE; NO_BIAS; OBJECTIVE_RIGHT_RED_BIAS_80_20; OBJECTIVE_RIGHT_RED_BIAS_20_80; OBJECTIVE_RIGHT_RED_BIAS_100_00; OBJECTIVE_RIGHT_RED_BIAS_00_100; 
+ENUMTYPES; String; Int32; Int32; Int32; Int32; Int32; Int32; 
+ENUM; RandomizationBiasModeCodes; 0; 1; 2; 3; 4; 5; 
+
+SCREENHEADER; Timestamp; Name; ScreenWidth_mm; ScreenHeight_mm; ScreenWidth_pixel; ScreenHeight_pixel; ScreenPixel2MM; ScreenMM2Pixel; 
+SCREENTYPES; clTime; String; Double; Double; Int32; Int32; Double; Double; 
+SCREEN; 2108.5; EyeVisTOLED5500; 1209.6; 680.4; 1920; 1080; 0.63; 1.58730158730159; 
+
+SETUPHEADER; Timestamp; Name; A_TouchDeviceType; A_TouchDeviceTypeString; B_TouchDeviceType; B_TouchDeviceTypeString; ScreenName; 
+SETUPTYPES; clTime; String; Int32; String; Int32; String; String; 
+SETUP; 2108.5; SCP_01; 1; PQLabs_G5S; 1; PQLabs_G5S; EyeVisTOLED5500; 
+
+REWARDHEADER; RewardStartTime; TrialNumber; Name; RewardReasonString; NumberRewardPulsesDelivered; RewardPulseDuration
+REWARDTYPES; clTime; Int32; String; String; Int32; Int32
+
+
+
+
+TIMINGHEADER; Timestamp; SystemTime
+TIMINGTYPES; clTime; String
+TIMING; 2108.5; 20190612T153545.189254
+
+SESSIONHEADER; Timestamp; Name; TrialType; TouchTargetsNum; InitialFixationPositionalElementsIndices; TouchPositionalElementsIndices; CurrentlyHeldTouchPositionalElementsIndices; TrialNumber; InitialHoldDur_ms; InitialFixationAcqTouchDur_ms; InitialFixationHoldTouchDur_ms; InitialFixationTargetDelay_ms; RewardDuration_ms; TargetAcqTouchDur_ms; TargetHoldTouchDur_ms; TargetOffsetRewardDelay_ms; AbortTimeOut_ms; ITI_ms; TouchDotSize_mm; FixationDotSize_mm; TouchDotSize_pixel; TouchROISize_pixel; TouchROISize_mm; FixationDotSize_pixel; CorrectionTrialMethod; TrialTypeSet; TrialTypesInCurrentSet; NumTrialsPerTrialTypeInSet; TouchInitialFixationPosition; NumTouchTargetPositions; TouchTargetPositions; TouchTargetPositionFrequencies; RandomizationBiasModeCode; RandomizationBiasMode; TouchTargetPositioningMethod; CurrentlyHeldIFTouchPositionalElementsIndices; TouchTargetPositioningMethodCode; HandTargetDimString; HandTargetBrightString; GazeTargetDimString; GazeTargetBrightString; MatchRewardPulseToSuccesSoundPulse; SuccesSoundPulseDurationMS; SuccesSoundInterPulseDurationMS; SuccesSoundInterStereoOffsetMS; SuccessSoundPrefixString; SoundSuffixString; ShowPupilLabsSurfaceMarkers; 
+SESSIONTYPES; clTime; String; Int32; Int32; Int32[]; Int32[]; Int32[]; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32[]; Int32[]; clPoint; Int32; clPoint[]; Int32[]; Int32; String; String; Int32[]; Int32; String; String; String; String; Boolean; Int32; Int32; Int32; String; String; Boolean; 
+SESSION; 121.79; DAGDFGR; 4; 2; 0; 1; 0| -1| 0; 0; 500; 1500; 500; 0; 0; 1500; 500; 200; 1000; 1500; 35; 5; 56; 84; 53; 8; 1; 2; 0| 1| 2| 3| 4| 5| 6; 0| 0| 0| 85| 15| 0| 0; 960,500 (4.81°,90™°); 6; 739,556 (26.66°,184.14™°)| 739,500 (27.02°,169.74™°)| 739,445 (28.94°,156.74™°)| 1182,556 (26.78°,355.88™°)| 1182,500 (27.14°,10.21™°)| 1182,445 (29.05°,23.17™°); 3| 3| 3| 3| 3| 3; 1; NO_BIAS; DAG_SQUARE; -1| 0| 0; 1; HandTouchTargetDimV2; HandTouchTargetBrightV2; GazeTargetDim; GazeTargetBright; True; 150; 200; 75; 733Hz12Harm443Hz12Harm; PulseDur150RampDur10InterPulseDur200AlignmentConcatenatedStereoOffset75; False; 
+
+TRIALHEADER; Timestamp; TrialNumber; A_Name; A_CurrentParadigm; A_IsActive; A_IsHoldingAll; A_IsHoldingLeft; A_IsHoldingRight; A_IsTrialInitiated; A_PlaySuccessSound; A_PlayAbortSound; A_TrialType; A_TrialTypeString; A_RewardFunction; A_RewardFunctionString; A_TmpNextParadigmState; A_PerfectTrial; A_EvaluateProximitySensors; A_EvaluateTouchPanel; A_AllowedReachEffectors; A_ReachEffector; A_ReachEffectorString; A_IsTouchingInitialFixation; A_IsTouchingTarget01; A_Outcome; A_OutcomeString; A_NumCorrectResponses; A_AbortReason; A_AbortReasonString; A_AbortedState; A_AbortedStateString; A_NumInitiatedTrials; A_NumCorrectRewards; A_NumTotalRewards; A_TotalRewardActiveDur_ms; A_AccumulatedRewardPulses; A_DualSubjectProgressConditional; A_DualSubjectAbortConditional; A_AbortTime_ms; A_InitialFixationOnsetTime_ms; A_HoldReleaseTime_ms; A_InitialFixationTouchTime_ms; A_InitialFixationReleaseTime_ms; A_InitialFixationAdjReleaseTime_ms; A_TargetOnsetTime_ms; A_TargetTouchTime_ms; A_TargetOffsetTime_ms; A_TmpTouchReleaseTime_ms; A_TouchROIAllowedReleases_ms; A_TouchInitialFixationPosition; A_TouchSelectedTargetPosition; A_RandomizedTargetPosition; B_Name; B_CurrentParadigm; B_IsActive; B_IsHoldingAll; B_IsHoldingLeft; B_IsHoldingRight; B_IsTrialInitiated; B_PlaySuccessSound; B_PlayAbortSound; B_TrialType; B_TrialTypeString; B_RewardFunction; B_RewardFunctionString; B_TmpNextParadigmState; B_PerfectTrial; B_EvaluateProximitySensors; B_EvaluateTouchPanel; B_AllowedReachEffectors; B_ReachEffector; B_ReachEffectorString; B_IsTouchingInitialFixation; B_IsTouchingTarget01; B_Outcome; B_OutcomeString; B_NumCorrectResponses; B_AbortReason; B_AbortReasonString; B_AbortedState; B_AbortedStateString; B_NumInitiatedTrials; B_NumCorrectRewards; B_NumTotalRewards; B_TotalRewardActiveDur_ms; B_AccumulatedRewardPulses; B_DualSubjectProgressConditional; B_DualSubjectAbortConditional; B_AbortTime_ms; B_InitialFixationOnsetTime_ms; B_HoldReleaseTime_ms; B_InitialFixationTouchTime_ms; B_InitialFixationReleaseTime_ms; B_InitialFixationAdjReleaseTime_ms; B_TargetOnsetTime_ms; B_TargetTouchTime_ms; B_TargetOffsetTime_ms; B_TmpTouchReleaseTime_ms; B_TouchROIAllowedReleases_ms; B_TouchInitialFixationPosition; B_TouchSelectedTargetPosition; B_RandomizedTargetPosition; 
+TRIALTYPES; clTime; Int32; String; String; Boolean; Boolean; Boolean; Boolean; Boolean; Boolean; Boolean; Int32; String; Int32; String; Int32; Boolean; Boolean; Boolean; Int32; Int32; String; Boolean; Boolean; Int32; String; Int32; Int32; String; Int32; String; Int32; Int32; Int32; Int32; Int32; String; String; clTime; clTime; clTime; clTime; clTime; clTime; clTime; clTime; clTime; clTime; clTime; clPoint; clPoint; clPoint; String; String; Boolean; Boolean; Boolean; Boolean; Boolean; Boolean; Boolean; Int32; String; Int32; String; Int32; Boolean; Boolean; Boolean; Int32; Int32; String; Boolean; Boolean; Int32; String; Int32; Int32; String; Int32; String; Int32; Int32; Int32; Int32; Int32; String; String; clTime; clTime; clTime; clTime; clTime; clTime; clTime; clTime; clTime; clTime; clTime; clPoint; clPoint; clPoint; 
+
+
+CLISTATISTICSHEADER; Timestamp; TrialNumber; IntervalStartTime; IntervalEndTime; NumIntervals; Minimum; LowerQuartile; Median; UpperQuartile; Maximum
+CLISTATISTICSTYPES; clTime; Int32; clTime; clTime; Int32; Double; Double; Double; Double; Double
+CLISTATISTICS; 0; 0; 0; 151.46; 29;  1.15;  1.16;  1.17;  1.26; 35.15
+
+
+
+STIMULUSHEADER; Timestamp; TrialNumber; Index; Position; Size; StimulusName; StimulusBrightName; IsInitialFixationTarget; IsTarget
+STIMULUSTYPES ; clTime; Int32; Int32; clPoint; clSize; String; String; Boolean; Boolean
+SESSION; 151.46; DAGDFGR; 3; 2; 0; 1; 0| -1| 0; 0; 500; 1500; 500; 0; 0; 1500; 500; 200; 1000; 1500; 35; 5; 56; 84; 53; 8; 1; 2; 0| 1| 2| 3| 4| 5| 6; 0| 0| 0| 85| 15| 0| 0; 960,500 (4.81°,90™°); 6; 739,556 (26.66°,184.14™°)| 739,500 (27.02°,169.74™°)| 739,445 (28.94°,156.74™°)| 1182,556 (26.78°,355.88™°)| 1182,500 (27.14°,10.21™°)| 1182,445 (29.05°,23.17™°); 3| 3| 3| 3| 3| 3; 1; NO_BIAS; DAG_SQUARE; -1| 0| 0; 1; HandTouchTargetDimV2; HandTouchTargetBrightV2; GazeTargetDim; GazeTargetBright; True; 150; 200; 75; 733Hz12Harm443Hz12Harm; PulseDur150RampDur10InterPulseDur200AlignmentConcatenatedStereoOffset75; False; 
+STIMULUS; 151.46; 1; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 151.46; 1; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 151.46; 1; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 27782.89; 1; A; TASK_HIT; 2; 40
+
+REWARD; 27782.89; 1; B; TASK_HIT; 2; 70
+
+TRIAL; 24717.09; 1; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 1; 0; ABORT_NO_ABORT; 0; NoState; 1; 1; 1; 80; 2; AND; OR; 0; 24717.09; 25198.83; 25753.2; 26706.5; 26706.5; 26273.2; 27062.51; 27576.62; 27562.56; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 1; 0; ABORT_NO_ABORT; 0; NoState; 1; 1; 1; 140; 2; AND; OR; 0; 24717.09; 25010.16; 25352.21; 26867.08; 26867.08; 26273.2; 26951.25; 27576.62; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 24717.09; 1; 1652.56; 29278.12; 21324;  1.17;  1.21;  1.22;  1.24; 149.42
+
+
+SESSION; 29278.12; DAGDFGR; 3; 3; 0; 1| 2; 0| 1| 1; 1; 500; 1500; 500; 0; 1485; 1500; 500; 200; 1000; 1500; 35; 5; 56; 84; 53; 8; 1; 0; 0| 1| 2| 3| 4| 5| 6; 0| 0| 0| 85| 15| 0| 0; 960,500 (4.81°,90™°); 6; 739,556 (26.66°,184.14™°)| 739,500 (27.02°,169.74™°)| 739,445 (28.94°,156.74™°)| 1182,556 (26.78°,355.88™°)| 1182,500 (27.14°,10.21™°)| 1182,445 (29.05°,23.17™°); 3| 3| 3| 3| 3| 3; 1; NO_BIAS; DAG_SQUARE; 1| 0| 0; 1; HandTouchTargetDimV2; HandTouchTargetBrightV2; GazeTargetDim; GazeTargetBright; True; 150; 200; 75; 733Hz12Harm443Hz12Harm; PulseDur150RampDur10InterPulseDur200AlignmentConcatenatedStereoOffset75; False; 
+STIMULUS; 29278.12; 2; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 29278.12; 2; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 29278.12; 2; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 34499.78; 2; A; TASK_HIT; 4; 0
+
+REWARD; 34499.78; 2; B; TASK_HIT; 3; 70
+
+TRIAL; 31305.93; 2; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 2; 0; ABORT_NO_ABORT; 0; NoState; 2; 2; 2; 80; 6; AND; OR; 0; 31305.93; 31708.4; 32179.26; 33140.78; 33140.78; 32693.97; 33779.98; 34299.42; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 2; 0; ABORT_NO_ABORT; 0; NoState; 2; 2; 2; 350; 5; AND; OR; 0; 31305.93; 31606.35; 32009.52; 33486.25; 33486.25; 32693.97; 33692.83; 34299.42; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 31305.93; 2; 30778.81; 37354.67; 4404;  1.22;  1.27;  1.32;  1.51; 168.46
+
+
+STIMULUS; 37354.67; 3; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 37354.67; 3; 1; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 37354.67; 3; 2; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 42411.37; 3; A; TASK_HIT; 4; 0
+
+REWARD; 42411.37; 3; B; TASK_HIT; 3; 70
+
+TRIAL; 39383.31; 3; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 3; 0; ABORT_NO_ABORT; 0; NoState; 3; 3; 3; 80; 10; AND; OR; 0; 39383.31; 39672.28; 40181.33; 41168.07; 41168.07; 40704.46; 41351.07; 42209.56; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 3; 0; ABORT_NO_ABORT; 0; NoState; 3; 3; 3; 560; 8; AND; OR; 0; 39383.31; 39727.33; 40088.38; 41530.54; 41530.54; 40704.46; 41692.62; 42209.56; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); 
+CLISTATISTICS; 39383.31; 3; 38855.52; 45265.36; 4396;  1.22;  1.26;  1.30;  1.51; 30.00
+
+
+STIMULUS; 45265.36; 4; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 45265.36; 4; 1; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 45265.36; 4; 2; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 50286.9; 4; A; TASK_HIT; 4; 0
+
+REWARD; 50286.9; 4; B; TASK_HIT; 3; 70
+
+TRIAL; 47293.47; 4; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 4; 0; ABORT_NO_ABORT; 0; NoState; 4; 4; 4; 80; 14; AND; OR; 0; 47293.47; 47588.7; 48113.37; 49072.37; 49072.37; 48631.34; 49250.58; 50086.28; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 739,556 (26.66°,184.14™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 4; 0; ABORT_NO_ABORT; 0; NoState; 4; 4; 4; 770; 11; AND; OR; 0; 47293.47; 47564.09; 47943.18; 49436.76; 49436.76; 48631.34; 49562.38; 50086.28; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 739,556 (26.66°,184.14™°); 
+CLISTATISTICS; 47293.47; 4; 46765.74; 53141.06; 4383;  1.22;  1.27;  1.30;  1.51; 24.41
+
+
+STIMULUS; 53141.06; 5; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 53141.06; 5; 1; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 53141.06; 5; 2; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 58264.29; 5; A; TASK_HIT; 4; 0
+
+REWARD; 58264.29; 5; B; TASK_HIT; 3; 70
+
+TRIAL; 55170.18; 5; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 5; 0; ABORT_NO_ABORT; 0; NoState; 5; 5; 5; 80; 18; AND; OR; 0; 55170.18; 55484.67; 56036.31; 56975.76; 56975.76; 56558.22; 57182.45; 58063.33; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 5; 0; ABORT_NO_ABORT; 0; NoState; 5; 5; 5; 980; 14; AND; OR; 0; 55170.18; 55482.73; 55859.75; 57360.96; 57360.96; 56558.22; 57547.17; 58063.33; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); 
+CLISTATISTICS; 55170.18; 5; 54641.98; 61119.94; 4448;  1.22;  1.26;  1.30;  1.51; 25.68
+
+
+STIMULUS; 61119.94; 6; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 61119.94; 6; 1; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 61119.94; 6; 2; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 66291.87; 6; A; TASK_HIT; 4; 0
+
+REWARD; 66291.87; 6; B; TASK_HIT; 3; 70
+
+TRIAL; 63147.22; 6; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 6; 0; ABORT_NO_ABORT; 0; NoState; 6; 6; 6; 80; 22; AND; OR; 0; 63147.22; 63462.04; 64064.31; 65067.81; 65067.81; 64585.44; 65359.93; 66090.54; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 1182,500 (27.14°,10.21™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 6; 0; ABORT_NO_ABORT; 0; NoState; 6; 6; 6; 1190; 17; AND; OR; 0; 63147.22; 63478.85; 63843.94; 65374.21; 65374.21; 64585.44; 65567.57; 66090.54; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 1182,500 (27.14°,10.21™°); 
+CLISTATISTICS; 63147.22; 6; 62620.43; 69146.77; 4461;  1.22;  1.27;  1.32;  1.51; 31.66
+
+
+STIMULUS; 69146.77; 7; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 69146.77; 7; 1; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 69146.77; 7; 2; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 74519.39; 7; A; TASK_HIT; 4; 0
+
+REWARD; 74519.39; 7; B; TASK_HIT; 3; 70
+
+TRIAL; 71174.45; 7; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 7; 0; ABORT_NO_ABORT; 0; NoState; 7; 7; 7; 80; 26; AND; OR; 0; 71174.45; 71494.65; 72045.32; 73012.05; 73012.05; 72562.49; 73217.26; 74318.44; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 7; 0; ABORT_NO_ABORT; 0; NoState; 7; 7; 7; 1400; 20; AND; OR; 0; 71174.45; 71553.96; 71927.01; 73574.93; 73574.93; 72562.49; 73792.68; 74318.44; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); 
+CLISTATISTICS; 71174.45; 7; 70648.02; 77374.18; 4607;  1.22;  1.27;  1.32;  1.51; 30.91
+
+
+STIMULUS; 77374.18; 8; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 77374.18; 8; 1; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 77374.18; 8; 2; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 82345.55; 8; A; TASK_HIT; 4; 0
+
+REWARD; 82345.55; 8; B; TASK_HIT; 3; 70
+
+TRIAL; 79402.34; 8; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 8; 0; ABORT_NO_ABORT; 0; NoState; 8; 8; 8; 80; 30; AND; OR; 0; 79402.34; 79698.44; 80224.78; 81135.56; 81135.56; 80740.2; 81379.98; 82144.97; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 739,556 (26.66°,184.14™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 8; 0; ABORT_NO_ABORT; 0; NoState; 8; 8; 8; 1610; 23; AND; OR; 0; 79402.34; 79789.33; 80131.41; 81505.78; 81505.78; 80740.2; 81632.11; 82144.97; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 739,556 (26.66°,184.14™°); 
+CLISTATISTICS; 79402.34; 8; 78875.4; 85199.92; 4336;  1.22;  1.27;  1.32;  1.51; 30.18
+
+
+STIMULUS; 85199.92; 9; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 85199.92; 9; 1; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 85199.92; 9; 2; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 90306.55; 9; A; TASK_HIT; 2; 0
+
+REWARD; 90306.55; 9; B; TASK_HIT; 2; 70
+
+TRIAL; 87228.88; 9; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 9; 0; ABORT_NO_ABORT; 0; NoState; 9; 9; 9; 80; 32; AND; OR; 0; 87228.88; 87544.41; 88083.37; 88997.8; 88997.8; 88600.2; 89586.79; 90105.31; 90086.89; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 1182,445 (29.05°,23.17™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 9; 0; ABORT_NO_ABORT; 0; NoState; 9; 9; 9; 1750; 25; AND; OR; 0; 87228.88; 87559.99; 87947.27; 89333.34; 89333.34; 88600.2; 89562.87; 90105.31; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 1182,445 (29.05°,23.17™°); 
+CLISTATISTICS; 87228.88; 9; 86701.27; 91762.11; 3286;  1.22;  1.27;  1.47;  1.52; 159.62
+
+
+STIMULUS; 91762.11; 10; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 91762.11; 10; 1; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 91762.11; 10; 2; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 96928.13; 10; A; TASK_HIT; 4; 0
+
+REWARD; 96928.13; 10; B; TASK_HIT; 3; 70
+
+TRIAL; 93784.44; 10; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 10; 0; ABORT_NO_ABORT; 0; NoState; 10; 10; 10; 80; 36; AND; OR; 0; 93784.44; 94105.79; 94657.38; 95624.04; 95624.04; 95172.47; 95806.1; 96727.74; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 10; 0; ABORT_NO_ABORT; 0; NoState; 10; 10; 10; 1960; 28; AND; OR; 0; 93784.44; 94092.82; 94481.69; 96008.21; 96008.21; 95172.47; 96216.17; 96727.74; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); 
+CLISTATISTICS; 93784.44; 10; 93262.67; 99785.1; 4391;  1.21;  1.26;  1.31;  1.51; 158.08
+
+
+STIMULUS; 99785.1; 11; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 99785.1; 11; 1; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 99785.1; 11; 2; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 106812.16; 11; A; TASK_HIT; 4; 0
+
+REWARD; 106812.16; 11; B; TASK_HIT; 3; 70
+
+TRIAL; 103550.88; 11; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 11; 0; ABORT_NO_ABORT; 0; NoState; 11; 11; 11; 80; 40; AND; OR; 0; 103550.88; 103903.47; 104503.35; 105525.02; 105525.02; 105022.55; 105806.9; 106611.27; 0; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 1182,445 (29.05°,23.17™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 11; 0; ABORT_NO_ABORT; 0; NoState; 11; 11; 11; 2170; 31; AND; OR; 0; 103550.88; 104018.75; 104404.63; 105898.58; 105898.58; 105022.55; 106094.88; 106611.27; 0; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 1182,445 (29.05°,23.17™°); 
+CLISTATISTICS; 103550.88; 11; 101285.5; 109667.08; 5910;  1.17;  1.25;  1.28;  1.50; 23.70
+
+
+STIMULUS; 109667.08; 12; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 109667.08; 12; 1; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 109667.08; 12; 2; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 114973.09; 12; A; TASK_HIT; 4; 0
+
+REWARD; 114973.09; 12; B; TASK_HIT; 3; 70
+
+TRIAL; 111695.16; 12; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 12; 0; ABORT_NO_ABORT; 0; NoState; 12; 12; 12; 80; 44; AND; OR; 0; 111695.16; 112045.57; 112629.45; 113630.21; 113630.21; 113150.11; 113916.69; 114772.27; 0; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 1182,445 (29.05°,23.17™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 12; 0; ABORT_NO_ABORT; 0; NoState; 12; 12; 12; 2380; 34; AND; OR; 0; 111695.16; 112055.1; 112431.41; 114059.85; 114059.85; 113150.11; 114252.48; 114772.27; 0; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 1182,445 (29.05°,23.17™°); 
+CLISTATISTICS; 111695.16; 12; 111168.5; 117827.94; 4565;  1.22;  1.27;  1.32;  1.51; 24.84
+
+
+STIMULUS; 117827.94; 13; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 117827.94; 13; 1; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 117827.94; 13; 2; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 123268.3; 13; A; TASK_HIT; 4; 0
+
+REWARD; 123268.3; 13; B; TASK_HIT; 3; 70
+
+TRIAL; 119856.17; 13; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 13; 0; ABORT_NO_ABORT; 0; NoState; 13; 13; 13; 80; 48; AND; OR; 0; 119856.17; 120183.65; 120826.5; 121798.13; 121798.13; 121344.56; 122056.04; 123067.16; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 739,556 (26.66°,184.14™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 13; 0; ABORT_NO_ABORT; 0; NoState; 13; 13; 13; 2590; 37; AND; OR; 0; 119856.17; 120183.65; 120576.73; 122396.87; 122396.87; 121344.56; 122541.73; 123067.16; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 739,556 (26.66°,184.14™°); 
+CLISTATISTICS; 119856.17; 13; 119329.1; 126121.95; 4646;  1.22;  1.27;  1.33;  1.51; 26.54
+
+
+STIMULUS; 126121.95; 14; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 126121.95; 14; 1; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 126121.95; 14; 2; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 131212.43; 14; A; TASK_HIT; 4; 0
+
+REWARD; 131212.43; 14; B; TASK_HIT; 3; 70
+
+TRIAL; 128150.98; 14; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 14; 0; ABORT_NO_ABORT; 0; NoState; 14; 14; 14; 80; 52; AND; OR; 0; 128150.98; 128469.17; 129019.91; 130007.78; 130007.78; 129538.99; 130285.93; 131010.66; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 1182,500 (27.14°,10.21™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 14; 0; ABORT_NO_ABORT; 0; NoState; 14; 14; 14; 2800; 40; AND; OR; 0; 128150.98; 128543.3; 128901.13; 130317.08; 130317.08; 129538.99; 130492.06; 131010.66; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 1182,500 (27.14°,10.21™°); 
+CLISTATISTICS; 128150.98; 14; 127622.54; 134067.11; 4414;  1.22;  1.27;  1.32;  1.51; 25.33
+
+
+STIMULUS; 134067.11; 15; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 134067.11; 15; 1; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 134067.11; 15; 2; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 139355.59; 15; A; TASK_HIT; 4; 0
+
+REWARD; 139355.59; 15; B; TASK_HIT; 3; 70
+
+TRIAL; 136094.56; 15; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 15; 0; ABORT_NO_ABORT; 0; NoState; 15; 15; 15; 80; 56; AND; OR; 0; 136094.56; 136400.68; 136931.18; 137874.13; 137874.13; 137449.17; 138059.85; 139154.95; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 15; 0; ABORT_NO_ABORT; 0; NoState; 15; 15; 15; 3010; 43; AND; OR; 0; 136094.56; 136493.56; 136913.27; 138437.18; 138437.18; 137449.17; 138632.8; 139154.95; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); 
+CLISTATISTICS; 136094.56; 15; 135567.45; 142209.7; 4521;  1.22;  1.27;  1.36;  1.51; 29.60
+
+
+STIMULUS; 142209.7; 16; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 142209.7; 16; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 142209.7; 16; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 214293.31; 16; B; MANUAL; 1; 70
+
+REWARD; 214597.2; 16; B; MANUAL; 1; 70
+
+REWARD; 215542.11; 16; B; MANUAL; 1; 70
+
+REWARD; 216325.96; 16; B; MANUAL; 1; 70
+
+REWARD; 222709.48; 16; B; MANUAL; 1; 70
+
+REWARD; 223061.1; 16; B; MANUAL; 1; 70
+
+REWARD; 227589.58; 16; B; MANUAL; 1; 70
+
+REWARD; 227894.31; 16; B; MANUAL; 1; 70
+
+REWARD; 229365.43; 16; B; MANUAL; 1; 70
+
+REWARD; 229749.79; 16; B; MANUAL; 1; 70
+
+REWARD; 233323.89; 16; A; TASK_HIT; 4; 0
+
+REWARD; 233323.89; 16; B; TASK_HIT; 3; 70
+
+TRIAL; 230263.85; 16; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 16; 0; ABORT_NO_ABORT; 0; NoState; 16; 16; 16; 80; 60; AND; OR; 0; 230263.85; 230587.66; 231049.3; 232031.06; 232031.06; 231635.17; 232241.02; 233123.55; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 16; 0; ABORT_NO_ABORT; 0; NoState; 16; 16; 26; 3920; 46; AND; OR; 0; 230263.85; 230634.08; 231108.34; 232464.88; 232464.88; 231635.17; 232599.54; 233123.55; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 230263.85; 16; 229514.48; 236177.71; 4578;  1.17;  1.27;  1.32;  1.51; 29.80
+
+
+STIMULUS; 236177.71; 17; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 236177.71; 17; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 236177.71; 17; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 241367.9; 17; A; TASK_HIT; 4; 0
+
+REWARD; 241367.9; 17; B; TASK_HIT; 3; 70
+
+TRIAL; 238441.57; 17; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 17; 0; ABORT_NO_ABORT; 0; NoState; 17; 17; 17; 80; 64; AND; OR; 0; 238441.57; 238734.94; 239266.64; 240245.07; 240245.07; 239796.17; 240568.72; 241167.49; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 17; 0; ABORT_NO_ABORT; 0; NoState; 17; 17; 27; 4130; 49; AND; OR; 0; 238441.57; 238922.72; 239268.64; 240503.07; 240503.07; 239796.17; 240643.77; 241167.49; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 238441.57; 17; 237678.57; 244222.36; 4493;  1.19;  1.27;  1.32;  1.51; 25.88
+
+
+STIMULUS; 244222.36; 18; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 244222.36; 18; 1; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 244222.36; 18; 2; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 249278.34; 18; A; TASK_HIT; 4; 0
+
+REWARD; 249278.34; 18; B; TASK_HIT; 3; 70
+
+TRIAL; 246251.39; 18; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 18; 0; ABORT_NO_ABORT; 0; NoState; 18; 18; 18; 80; 68; AND; OR; 0; 246251.39; 246532.94; 247097.47; 248065.97; 248065.97; 247622.71; 248277.85; 249077.65; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 1182,500 (27.14°,10.21™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 18; 0; ABORT_NO_ABORT; 0; NoState; 18; 18; 28; 4340; 52; AND; OR; 0; 246251.39; 246623.31; 246965.02; 248452.72; 248452.72; 247622.71; 248561.53; 249077.65; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 1182,500 (27.14°,10.21™°); 
+CLISTATISTICS; 246251.39; 18; 245722.63; 252133.16; 4357;  1.22;  1.27;  1.36;  1.51; 27.56
+
+
+STIMULUS; 252133.16; 19; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 252133.16; 19; 1; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 252133.16; 19; 2; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 257406.08; 19; A; TASK_HIT; 4; 0
+
+REWARD; 257406.08; 19; B; TASK_HIT; 3; 70
+
+TRIAL; 254161.54; 19; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 19; 0; ABORT_NO_ABORT; 0; NoState; 19; 19; 19; 80; 72; AND; OR; 0; 254161.54; 254486.77; 255036.91; 256010.42; 256010.42; 255566.31; 256268.71; 257205.2; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 19; 0; ABORT_NO_ABORT; 0; NoState; 19; 19; 29; 4550; 55; AND; OR; 0; 254161.54; 254462.7; 254850.84; 256504.34; 256504.34; 255566.31; 256683.8; 257205.2; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); 
+CLISTATISTICS; 254161.54; 19; 253633.75; 260261.62; 4540;  1.22;  1.27;  1.33;  1.51; 24.61
+
+
+STIMULUS; 260261.62; 20; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 260261.62; 20; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 260261.62; 20; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 265516.84; 20; A; TASK_HIT; 4; 0
+
+REWARD; 265516.84; 20; B; TASK_HIT; 3; 70
+
+TRIAL; 262289.11; 20; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 20; 0; ABORT_NO_ABORT; 0; NoState; 20; 20; 20; 80; 76; AND; OR; 0; 262289.11; 262618.54; 263190.01; 264211.89; 264211.89; 263794.21; 264448.63; 265316.02; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 20; 0; ABORT_NO_ABORT; 0; NoState; 20; 20; 30; 4760; 58; AND; OR; 0; 262289.11; 262824.51; 263273.29; 264538.78; 264538.78; 263794.21; 264798.04; 265316.02; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 262289.11; 20; 261762.54; 268374.16; 4512;  1.22;  1.27;  1.38;  1.51; 23.68
+
+
+STIMULUS; 268374.16; 21; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 268374.16; 21; 1; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 268374.16; 21; 2; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 273577.91; 21; A; TASK_HIT; 3; 0
+
+REWARD; 273577.91; 21; B; TASK_HIT; 4; 70
+
+TRIAL; 270399.94; 21; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 21; 0; ABORT_NO_ABORT; 0; NoState; 21; 21; 21; 80; 79; AND; OR; 0; 270399.94; 270708.95; 271238.17; 272310.96; 272310.96; 271754.54; 272565.93; 273376.7; 0; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 739,445 (28.94°,156.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 21; 0; ABORT_NO_ABORT; 0; NoState; 21; 21; 31; 5040; 62; AND; OR; 0; 270399.94; 270781.08; 271144.51; 272641.37; 272641.37; 271754.54; 272862.04; 273376.7; 0; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 739,445 (28.94°,156.74™°); 
+CLISTATISTICS; 270399.94; 21; 269874.43; 276781.77; 4647;  1.22;  1.27;  1.33;  1.51; 168.59
+
+
+STIMULUS; 276781.77; 22; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 276781.77; 22; 1; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 276781.77; 22; 2; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 278811.79; 22; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 21; 0; ABORT_NO_ABORT; 0; NoState; 22; 21; 21; 80; 79; AND; OR; 0; 278811.79; 279147.37; 279660.78; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 1182,500 (27.14°,10.21™°); Linus; DAGDFGR; True; True; True; True; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 21; 29; NO_HAND_FIX_ACQUISITION; 4; ShowInitialTargets; 21; 21; 31; 5040; 62; AND; OR; 280286.76; 278811.79; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 1182,500 (27.14°,10.21™°); 
+CLISTATISTICS; 278811.79; 22; 278282.67; 283294.32; 3552;  1.22;  1.27;  1.28;  1.50; 26.74
+
+
+STIMULUS; 283294.32; 23; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 283294.32; 23; 1; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 283294.32; 23; 2; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 288427.87; 23; A; TASK_HIT; 3; 0
+
+REWARD; 288427.87; 23; B; TASK_HIT; 4; 70
+
+TRIAL; 285317.19; 23; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 22; 0; ABORT_NO_ABORT; 0; NoState; 23; 22; 22; 80; 82; AND; OR; 0; 285317.19; 285691.3; 286157.99; 287151.49; 287151.49; 286738.67; 287336.35; 288227.05; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 1182,500 (27.14°,10.21™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 22; 0; ABORT_NO_ABORT; 0; NoState; 22; 22; 32; 5320; 66; AND; OR; 0; 285317.19; 285697.83; 286214.39; 287498.29; 287498.29; 286738.67; 287708.5; 288227.05; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 1182,500 (27.14°,10.21™°); 
+CLISTATISTICS; 285317.19; 23; 284795.63; 291631.55; 4687;  1.22;  1.27;  1.33;  1.51; 21.96
+
+
+STIMULUS; 291631.55; 24; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 291631.55; 24; 1; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 291631.55; 24; 2; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 293662.15; 24; RN; DAGDFGR; True; True; True; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 22; 0; ABORT_NO_ABORT; 0; NoState; 24; 22; 22; 80; 82; AND; OR; 0; 293662.15; 293986.97; 294437.13; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); Linus; DAGDFGR; True; True; True; True; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 22; 29; NO_HAND_FIX_ACQUISITION; 4; ShowInitialTargets; 22; 22; 32; 5320; 66; AND; OR; 295137.25; 293662.15; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); 
+CLISTATISTICS; 293662.15; 24; 293133; 298143.07; 3555;  1.22;  1.27;  1.28;  1.50; 25.95
+
+
+STIMULUS; 298143.07; 25; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 298143.07; 25; 1; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 298143.07; 25; 2; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 300167.53; 25; RN; DAGDFGR; True; True; True; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 22; 0; ABORT_NO_ABORT; 0; NoState; 25; 22; 22; 80; 82; AND; OR; 0; 300167.53; 300537.5; 301048.21; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); Linus; DAGDFGR; True; True; True; True; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 22; 29; NO_HAND_FIX_ACQUISITION; 4; ShowInitialTargets; 22; 22; 32; 5320; 66; AND; OR; 301648.12; 300167.53; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); 
+CLISTATISTICS; 300167.53; 25; 299643.65; 304653.39; 3568;  1.22;  1.27;  1.28;  1.50; 21.04
+
+
+STIMULUS; 304653.39; 26; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 304653.39; 26; 1; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 304653.39; 26; 2; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 306672.93; 26; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 22; 0; ABORT_NO_ABORT; 0; NoState; 26; 22; 22; 80; 82; AND; OR; 0; 306672.93; 307050.59; 307562.11; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); Linus; DAGDFGR; True; True; True; True; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 22; 29; NO_HAND_FIX_ACQUISITION; 4; ShowInitialTargets; 22; 22; 32; 5320; 66; AND; OR; 308157.36; 306672.93; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); 
+CLISTATISTICS; 306672.93; 26; 306153.81; 311162.3; 3571;  1.22;  1.27;  1.28;  1.49; 20.78
+
+
+STIMULUS; 311162.3; 27; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 311162.3; 27; 1; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 311162.3; 27; 2; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 313178.31; 27; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 22; 0; ABORT_NO_ABORT; 0; NoState; 27; 22; 22; 80; 82; AND; OR; 0; 313178.31; 313827.43; 314447.28; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); Linus; DAGDFGR; True; True; True; True; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 22; 29; NO_HAND_FIX_ACQUISITION; 4; ShowInitialTargets; 22; 22; 32; 5320; 66; AND; OR; 314667.32; 313178.31; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); 
+CLISTATISTICS; 313178.31; 27; 312664.68; 317671.84; 3567;  1.23;  1.27;  1.28;  1.49; 24.34
+
+
+STIMULUS; 317671.84; 28; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 317671.84; 28; 1; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 317671.84; 28; 2; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 319700.43; 28; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 22; 0; ABORT_NO_ABORT; 0; NoState; 28; 22; 22; 80; 82; AND; OR; 0; 319700.43; 320337.59; 320766.71; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); Linus; DAGDFGR; True; True; True; True; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 22; 29; NO_HAND_FIX_ACQUISITION; 4; ShowInitialTargets; 22; 22; 32; 5320; 66; AND; OR; 321177.36; 319700.43; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); 
+CLISTATISTICS; 319700.43; 28; 319172.8; 324182.59; 3553;  1.22;  1.27;  1.28;  1.50; 25.22
+
+
+STIMULUS; 324182.59; 29; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 324182.59; 29; 1; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 324182.59; 29; 2; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 477401.91; 29; A; TASK_HIT; 3; 0
+
+REWARD; 477401.91; 29; B; TASK_HIT; 4; 70
+
+TRIAL; 474374.87; 29; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 23; 0; ABORT_NO_ABORT; 0; NoState; 29; 23; 23; 80; 85; AND; OR; 0; 474374.87; 474683.68; 475170.64; 476169.55; 476169.55; 475696.01; 476429.06; 477201.13; 0; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 739,445 (28.94°,156.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 23; 0; ABORT_NO_ABORT; 0; NoState; 23; 23; 33; 5600; 70; AND; OR; 0; 474374.87; 474433.84; 474811.37; 476460.51; 476460.51; 475696.01; 476679.39; 477201.13; 0; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 739,445 (28.94°,156.74™°); 
+CLISTATISTICS; 474374.87; 29; 325684.05; 480606.57; 122595;  1.17;  1.21;  1.22;  1.22; 25.55
+
+
+STIMULUS; 480606.57; 30; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 480606.57; 30; 1; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 480606.57; 30; 2; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 529010.11; 30; RN; DAGDFGR; True; False; False; False; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 23; 0; ABORT_NO_ABORT; 0; NoState; 30; 23; 23; 80; 85; AND; OR; 0; 529010.11; 529446; 529987.13; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 1182,500 (27.14°,10.21™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 23; 28; EARLY_HAND_FIX_RELEASE; 5; ShowInitialTargetsHold; 24; 23; 33; 5600; 70; AND; OR; 530217.61; 529010.11; 529345.25; 529733.26; 530217.61; 530196.72; 0; 0; 0; 530196.72; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 1182,500 (27.14°,10.21™°); 
+CLISTATISTICS; 529010.11; 30; 500831.8; 533221.64; 24947;  1.17;  1.21;  1.22;  1.28; 169.21
+
+
+STIMULUS; 533221.64; 31; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 533221.64; 31; 1; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 533221.64; 31; 2; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 610133.71; 31; B; MANUAL; 1; 70
+
+REWARD; 610453.2; 31; B; MANUAL; 1; 70
+
+REWARD; 610677; 31; B; MANUAL; 1; 70
+
+TRIAL; 611222.2; 31; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 3; ABORT_BY_OTHER; 23; 0; ABORT_NO_ABORT; 0; NoState; 31; 23; 23; 80; 85; AND; OR; 0; 611222.2; 611573.28; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 1182,500 (27.14°,10.21™°); Linus; DAGDFGR; True; False; False; False; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 23; 27; WRONG_HAND_SECOND; 4; ShowInitialTargets; 25; 23; 36; 5810; 70; AND; OR; 611916.32; 611222.2; 611651.19; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 1182,500 (27.14°,10.21™°); 
+CLISTATISTICS; 611222.2; 31; 561335.34; 613872.91; 41145;  1.17;  1.21;  1.22;  1.25; 37.49
+
+
+STIMULUS; 613872.91; 32; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 613872.91; 32; 1; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 613872.91; 32; 2; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 632394.1; 32; A; TASK_HIT; 3; 0
+
+REWARD; 632394.1; 32; B; TASK_HIT; 4; 70
+
+TRIAL; 629534.29; 32; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 24; 0; ABORT_NO_ABORT; 0; NoState; 32; 24; 24; 80; 88; AND; OR; 0; 629534.29; 629863.75; 630338.44; 631312.82; 631312.82; 630855.45; 631442.77; 632193.3; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 1182,500 (27.14°,10.21™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 24; 0; ABORT_NO_ABORT; 0; NoState; 26; 24; 37; 6090; 74; AND; OR; 0; 629534.29; 629597.13; 629965.22; 631500.34; 631500.34; 630855.45; 631673.93; 632193.3; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 1182,500 (27.14°,10.21™°); 
+CLISTATISTICS; 629534.29; 32; 626748.62; 635598.57; 6234;  1.17;  1.25;  1.27;  1.48; 168.07
+
+
+STIMULUS; 635598.57; 33; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 635598.57; 33; 1; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 635598.57; 33; 2; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 640153.63; 33; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; True; 3; ABORT_BY_OTHER; 24; 0; ABORT_NO_ABORT; 0; NoState; 33; 24; 24; 80; 88; AND; OR; 0; 640153.63; 640495.62; 640928.39; 642127.72; 642127.72; 641742.32; 642280.45; 0; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 1182,445 (29.05°,23.17™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 24; 30; EARLY_HAND_TARGET_RELEASE; 14; ShowChoiceTargetsHold; 27; 24; 37; 6090; 74; AND; OR; 642570.17; 640153.63; 640848.04; 641226.77; 642435.7; 642435.7; 641742.32; 642532.1; 0; 642548.81; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 1182,445 (29.05°,23.17™°); 
+CLISTATISTICS; 640153.63; 33; 637100.37; 645575.69; 5972;  1.17;  1.22;  1.28;  1.49; 162.93
+
+
+STIMULUS; 645575.69; 34; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 645575.69; 34; 1; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 645575.69; 34; 2; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 751079.95; 34; A; TASK_HIT; 3; 0
+
+REWARD; 751079.95; 34; B; TASK_HIT; 4; 70
+
+TRIAL; 748153.16; 34; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 25; 0; ABORT_NO_ABORT; 0; NoState; 34; 25; 25; 80; 91; AND; OR; 0; 748153.16; 748461.35; 749061.27; 749994.16; 749994.16; 749591.36; 750164.62; 750879.07; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 1182,445 (29.05°,23.17™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 25; 0; ABORT_NO_ABORT; 0; NoState; 28; 25; 38; 6370; 78; AND; OR; 0; 748153.16; 748166.72; 748576.35; 750130.76; 750130.76; 749591.36; 750361.71; 750879.07; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 1182,445 (29.05°,23.17™°); 
+CLISTATISTICS; 748153.16; 34; 702450.86; 754284.07; 40344;  1.17;  1.21;  1.22;  1.24; 170.66
+
+
+STIMULUS; 754284.07; 35; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 754284.07; 35; 1; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 754284.07; 35; 2; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 917828.44; 35; A; TASK_HIT; 3; 0
+
+REWARD; 917828.44; 35; B; TASK_HIT; 4; 70
+
+TRIAL; 914617.59; 35; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 26; 0; ABORT_NO_ABORT; 0; NoState; 35; 26; 26; 80; 94; AND; OR; 0; 914617.59; 915075.47; 915632.55; 916604.99; 916604.99; 916156.14; 916866.11; 917627.81; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 739,500 (27.02°,169.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 26; 0; ABORT_NO_ABORT; 0; NoState; 29; 26; 39; 6650; 82; AND; OR; 0; 914617.59; 915058.53; 915383.99; 916899.67; 916899.67; 916156.14; 917112.37; 917627.81; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 739,500 (27.02°,169.74™°); 
+CLISTATISTICS; 914617.59; 35; 887648.85; 921033.96; 25507;  1.17;  1.21;  1.22;  1.29; 24.14
+
+
+STIMULUS; 921033.96; 36; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 921033.96; 36; 1; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 921033.96; 36; 2; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 923062.9; 36; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 26; 0; ABORT_NO_ABORT; 0; NoState; 36; 26; 26; 80; 94; AND; OR; 0; 923062.9; 923391.32; 923837.25; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 739,556 (26.66°,184.14™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 26; 29; NO_HAND_FIX_ACQUISITION; 4; ShowInitialTargets; 30; 26; 39; 6650; 82; AND; OR; 924539.55; 923062.9; 924163.47; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 739,556 (26.66°,184.14™°); 
+CLISTATISTICS; 923062.9; 36; 922534.25; 927545.14; 3507;  1.22;  1.27;  1.29;  1.51; 25.10
+
+
+STIMULUS; 927545.14; 37; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 927545.14; 37; 1; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 927545.14; 37; 2; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 961309.19; 37; A; TASK_HIT; 3; 0
+
+REWARD; 961309.19; 37; B; TASK_HIT; 4; 70
+
+TRIAL; 957897.68; 37; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 27; 0; ABORT_NO_ABORT; 0; NoState; 37; 27; 27; 80; 97; AND; OR; 0; 957897.68; 958175.66; 958650.96; 960315.76; 960315.76; 959837.58; 960557.03; 961108.57; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 739,556 (26.66°,184.14™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 27; 0; ABORT_NO_ABORT; 0; NoState; 31; 27; 40; 6930; 86; AND; OR; 0; 957897.68; 958878.75; 959318.39; 960391.34; 960391.34; 959837.58; 960589.51; 961108.57; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 739,556 (26.66°,184.14™°); 
+CLISTATISTICS; 957897.68; 37; 949614.97; 964513.74; 10982;  1.17;  1.22;  1.26;  1.42; 31.01
+
+
+STIMULUS; 964513.74; 38; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 964513.74; 38; 1; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 964513.74; 38; 2; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 969537.82; 38; A; TASK_HIT; 3; 0
+
+REWARD; 969537.82; 38; B; TASK_HIT; 4; 70
+
+TRIAL; 966543.66; 38; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 28; 0; ABORT_NO_ABORT; 0; NoState; 38; 28; 28; 80; 100; AND; OR; 0; 966543.66; 966937.35; 967396.52; 968527.51; 968527.51; 967998.61; 968777.65; 969336.47; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 739,556 (26.66°,184.14™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 28; 0; ABORT_NO_ABORT; 0; NoState; 32; 28; 41; 7210; 90; AND; OR; 0; 966543.66; 967101.36; 967480.13; 968738.64; 968738.64; 967998.61; 968821.79; 969336.47; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 739,556 (26.66°,184.14™°); 
+CLISTATISTICS; 966543.66; 38; 966014.4; 972742.46; 4638;  1.22;  1.27;  1.32;  1.51; 24.86
+
+
+STIMULUS; 972742.46; 39; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 972742.46; 39; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 972742.46; 39; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 974771.56; 39; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 28; 0; ABORT_NO_ABORT; 0; NoState; 39; 28; 28; 80; 100; AND; OR; 0; 974771.56; 975156.58; 975706.78; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; False; False; True; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 28; 29; NO_HAND_FIX_ACQUISITION; 4; ShowInitialTargets; 32; 28; 41; 7210; 90; AND; OR; 976247.83; 974771.56; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 974771.56; 39; 974243.95; 979253.36; 3548;  1.22;  1.27;  1.28;  1.50; 24.44
+
+
+STIMULUS; 979253.36; 40; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 979253.36; 40; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 979253.36; 40; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 1005392.05; 40; RN; DAGDFGR; True; True; True; True; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 3; ABORT_BY_OTHER; 28; 0; ABORT_NO_ABORT; 0; NoState; 39; 28; 28; 80; 100; AND; OR; 0; 1005392.05; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; False; False; True; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 28; 26; WRONG_HAND_FIRST; 4; ShowInitialTargets; 32; 28; 41; 7210; 90; AND; OR; 1005433.28; 1005392.05; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 1005392.05; 40; 980754.05; 1008438.72; 21729;  1.17;  1.21;  1.22;  1.24; 166.35
+
+
+STIMULUS; 1008438.72; 41; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1008438.72; 41; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1008438.72; 41; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 1052652.31; 41; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 28; 31; NO_HAND_TARGET_ACQUISITION; 13; ShowChoiceTargets; 40; 28; 28; 80; 100; AND; OR; 1055580.83; 1052652.31; 1053040.56; 1053575.83; 1054598.92; 1054598.92; 1054090.52; 1054922.07; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 28; 31; NO_HAND_TARGET_ACQUISITION; 13; ShowChoiceTargets; 33; 28; 41; 7210; 90; AND; OR; 1055580.83; 1052652.31; 1053030.77; 1053383.73; 1054537.81; 1054537.81; 1054090.52; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 1052652.31; 41; 1051458.35; 1058586.61; 4799;  1.17;  1.27;  1.34;  1.52; 174.21
+
+
+STIMULUS; 1058586.61; 42; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1058586.61; 42; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1058586.61; 42; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 1071332.31; 42; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 28; 0; ABORT_NO_ABORT; 0; NoState; 41; 28; 28; 80; 100; AND; OR; 0; 1071332.31; 1071695.57; 1072172.5; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 28; 28; EARLY_HAND_FIX_RELEASE; 5; ShowInitialTargetsHold; 34; 28; 41; 7210; 90; AND; OR; 1072520.8; 1071332.31; 1071714.53; 1072045.94; 1072520.8; 1072499.71; 0; 0; 0; 1072499.71; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 1071332.31; 42; 1060087.58; 1075525.93; 11586;  1.17;  1.21;  1.23;  1.30; 176.53
+
+
+STIMULUS; 1075525.93; 43; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1075525.93; 43; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1075525.93; 43; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 1094243.36; 43; RN; DAGDFGR; True; True; True; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 3; ABORT_BY_OTHER; 28; 0; ABORT_NO_ABORT; 0; NoState; 42; 28; 28; 80; 100; AND; OR; 0; 1094243.36; 1094631.96; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; False; False; False; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 28; 27; WRONG_HAND_SECOND; 4; ShowInitialTargets; 35; 28; 41; 7210; 90; AND; OR; 1094958.71; 1094243.36; 1094255.35; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 1094243.36; 43; 1093679.2; 1097965.19; 3076;  1.20;  1.27;  1.28;  1.34; 29.84
+
+
+STIMULUS; 1097965.19; 44; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1097965.19; 44; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1097965.19; 44; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 1129947.73; 44; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 28; 31; NO_HAND_TARGET_ACQUISITION; 13; ShowChoiceTargets; 43; 28; 28; 80; 100; AND; OR; 1132796.7; 1129947.73; 1130333.48; 1130793.75; 1131773.02; 1131773.02; 1131319.05; 1132037.88; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; True; True; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 2; ABORT; 28; 31; NO_HAND_TARGET_ACQUISITION; 13; ShowChoiceTargets; 36; 28; 41; 7210; 90; AND; OR; 1132796.7; 1129947.73; 1130068.03; 1130501.55; 0; 0; 1131319.05; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 1129947.73; 44; 1121640.84; 1135801.93; 10372;  1.17;  1.22;  1.26;  1.37; 162.61
+
+
+STIMULUS; 1135801.93; 45; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1135801.93; 45; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1135801.93; 45; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 1141670.81; 45; A; TASK_HIT; 4; 0
+
+REWARD; 1141670.81; 45; B; TASK_HIT; 3; 70
+
+TRIAL; 1137824.44; 45; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 29; 0; ABORT_NO_ABORT; 0; NoState; 44; 29; 29; 80; 104; AND; OR; 0; 1137824.44; 1138171.52; 1138682.49; 1140263.96; 1140263.96; 1139730.91; 1140469.95; 1141470.14; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 29; 0; ABORT_NO_ABORT; 0; NoState; 37; 29; 42; 7420; 93; AND; OR; 0; 1137824.44; 1138803.92; 1139203.38; 1140732.94; 1140732.94; 1139730.91; 1140950.27; 1141470.14; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 1137824.44; 45; 1137302.69; 1144525.52; 4791;  1.22;  1.27;  1.45;  1.52; 161.25
+
+
+STIMULUS; 1144525.52; 46; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1144525.52; 46; 1; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1144525.52; 46; 2; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 1149196.34; 46; RN; DAGDFGR; True; True; True; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 29; 31; NO_HAND_TARGET_ACQUISITION; 13; ShowChoiceTargets; 45; 29; 29; 80; 104; AND; OR; 1152405.78; 1149196.34; 1149897.13; 1150403.26; 1151381.77; 1151381.77; 1150918.84; 1151637.86; 0; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 1182,500 (27.14°,10.21™°); Linus; DAGDFGR; True; True; True; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 29; 31; NO_HAND_TARGET_ACQUISITION; 13; ShowChoiceTargets; 38; 29; 42; 7420; 93; AND; OR; 1152405.78; 1149196.34; 1149738.63; 1150128.03; 1150984.59; 1150984.59; 1150918.84; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 1182,500 (27.14°,10.21™°); 
+CLISTATISTICS; 1149196.34; 46; 1146025.86; 1155411.06; 6592;  1.17;  1.22;  1.28;  1.51; 171.06
+
+
+STIMULUS; 1155411.06; 47; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1155411.06; 47; 1; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1155411.06; 47; 2; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 1170786.85; 47; A; TASK_HIT; 4; 0
+
+REWARD; 1170786.85; 47; B; TASK_HIT; 3; 70
+
+TRIAL; 1167190.68; 47; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 30; 0; ABORT_NO_ABORT; 0; NoState; 46; 30; 30; 80; 108; AND; OR; 0; 1167190.68; 1167531.35; 1168175.02; 1169182.8; 1169182.8; 1168695.79; 1169447.17; 1170585.53; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 1182,500 (27.14°,10.21™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 30; 0; ABORT_NO_ABORT; 0; NoState; 39; 30; 43; 7630; 96; AND; OR; 0; 1167190.68; 1167650.12; 1168069.6; 1169878.08; 1169878.08; 1168695.79; 1170062.28; 1170585.53; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 1182,500 (27.14°,10.21™°); 
+CLISTATISTICS; 1167190.68; 47; 1156912.13; 1173643.11; 12248;  1.17;  1.22;  1.26;  1.40; 165.57
+
+
+STIMULUS; 1173643.11; 48; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1173643.11; 48; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1173643.11; 48; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 1186255.33; 48; RN; DAGDFGR; True; True; True; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 30; 0; ABORT_NO_ABORT; 0; NoState; 47; 30; 30; 80; 108; AND; OR; 0; 1186255.33; 1186721.1; 1187188.57; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 30; 28; EARLY_HAND_FIX_RELEASE; 5; ShowInitialTargetsHold; 40; 30; 43; 7630; 96; AND; OR; 1187229.36; 1186255.33; 1186555.15; 1186882.59; 1187229.36; 1187208.7; 0; 0; 0; 1187208.7; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 1186255.33; 48; 1175143.97; 1190235.16; 11515;  1.17;  1.21;  1.22;  1.28; 170.21
+
+
+STIMULUS; 1190235.16; 49; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1190235.16; 49; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1190235.16; 49; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 1200804.66; 49; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 30; 0; ABORT_NO_ABORT; 0; NoState; 48; 30; 30; 80; 108; AND; OR; 0; 1200804.66; 1201114.1; 1201637.26; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; False; False; False; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 30; 29; NO_HAND_FIX_ACQUISITION; 4; ShowInitialTargets; 40; 30; 43; 7630; 96; AND; OR; 1202283.89; 1200804.66; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 1200804.66; 49; 1199902.48; 1205289.27; 3859;  1.17;  1.27;  1.28;  1.49; 22.05
+
+
+STIMULUS; 1205289.27; 50; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1205289.27; 50; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1205289.27; 50; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 1259317.71; 50; B; MANUAL; 1; 70
+
+REWARD; 1259588.66; 50; B; MANUAL; 1; 70
+
+TRIAL; 1297716.61; 50; RN; DAGDFGR; True; False; True; False; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 3; ABORT_BY_OTHER; 30; 0; ABORT_NO_ABORT; 0; NoState; 48; 30; 30; 80; 108; AND; OR; 0; 1297716.61; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; False; False; False; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 30; 27; WRONG_HAND_SECOND; 4; ShowInitialTargets; 41; 30; 45; 7770; 96; AND; OR; 1297936.02; 1297716.61; 1297735.21; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 1297716.61; 50; 1296851.29; 1300241.55; 2462;  1.17;  1.26;  1.27;  1.29; 27.02
+
+
+STIMULUS; 1300241.55; 51; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1300241.55; 51; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1300241.55; 51; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 1388624.86; 51; RN; DAGDFGR; True; False; True; False; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 3; ABORT_BY_OTHER; 30; 0; ABORT_NO_ABORT; 0; NoState; 49; 30; 30; 80; 108; AND; OR; 0; 1388624.86; 1388948.94; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; False; True; False; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 30; 27; WRONG_HAND_SECOND; 4; ShowInitialTargets; 42; 30; 45; 7770; 96; AND; OR; 1389166.78; 1388624.86; 1388795.2; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 1388624.86; 51; 1301742.46; 1391471.87; 71224;  1.17;  1.21;  1.22;  1.22; 31.12
+
+
+STIMULUS; 1391471.87; 52; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1391471.87; 52; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1391471.87; 52; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 1421219.37; 52; A; TASK_HIT; 4; 0
+
+REWARD; 1421219.37; 52; B; TASK_HIT; 3; 70
+
+TRIAL; 1418041.27; 52; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 31; 0; ABORT_NO_ABORT; 0; NoState; 50; 31; 31; 80; 112; AND; OR; 0; 1418041.27; 1418555.37; 1418990.17; 1420007.24; 1420007.24; 1419512.92; 1420293.04; 1421018.04; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 31; 0; ABORT_NO_ABORT; 0; NoState; 43; 31; 46; 7980; 99; AND; OR; 0; 1418041.27; 1418268.29; 1418540.6; 1420343.39; 1420343.39; 1419512.92; 1420496.15; 1421018.04; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 1418041.27; 52; 1392973.92; 1424073.91; 23677;  1.17;  1.21;  1.22;  1.28; 169.85
+
+
+STIMULUS; 1424073.91; 53; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1424073.91; 53; 1; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1424073.91; 53; 2; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 1443377.19; 53; RN; DAGDFGR; True; True; True; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 31; 31; NO_HAND_TARGET_ACQUISITION; 13; ShowChoiceTargets; 51; 31; 31; 80; 112; AND; OR; 1446378.85; 1443377.19; 1443834.13; 1444374.82; 1445375.08; 1445375.08; 1444899.01; 1445639.73; 0; 0; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 1182,445 (29.05°,23.17™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 31; 31; NO_HAND_TARGET_ACQUISITION; 13; ShowChoiceTargets; 44; 31; 46; 7980; 99; AND; OR; 1446378.85; 1443377.19; 1443795.24; 1444122.32; 1444992.16; 1444992.16; 1444899.01; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 1182,445 (29.05°,23.17™°); 
+CLISTATISTICS; 1443377.19; 53; 1442679.5; 1449384.38; 4481;  1.18;  1.27;  1.37;  1.52; 163.57
+
+
+STIMULUS; 1449384.38; 54; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1449384.38; 54; 1; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1449384.38; 54; 2; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 1497611.18; 54; A; TASK_HIT; 2; 0
+
+REWARD; 1497611.18; 54; B; TASK_HIT; 2; 70
+
+TRIAL; 1494835; 54; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 32; 0; ABORT_NO_ABORT; 0; NoState; 52; 32; 32; 80; 114; AND; OR; 0; 1494835; 1495130.03; 1495698.42; 1496645.14; 1496645.14; 1496223.04; 1496893.35; 1497410.4; 1497394.52; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 1182,445 (29.05°,23.17™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 32; 0; ABORT_NO_ABORT; 0; NoState; 45; 32; 47; 8120; 101; AND; OR; 0; 1494835; 1495165.49; 1495533.76; 1496702.64; 1496702.64; 1496223.04; 1496874.28; 1497410.4; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 1182,445 (29.05°,23.17™°); 
+CLISTATISTICS; 1494835; 54; 1477847.5; 1499068.08; 15984;  1.17;  1.21;  1.22;  1.31; 156.09
+
+
+STIMULUS; 1499068.08; 55; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1499068.08; 55; 1; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1499068.08; 55; 2; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 1501089.55; 55; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 32; 0; ABORT_NO_ABORT; 0; NoState; 53; 32; 32; 80; 114; AND; OR; 0; 1501089.55; 1501514.23; 1502033.04; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); Linus; DAGDFGR; True; True; True; True; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 32; 26; WRONG_HAND_FIRST; 4; ShowInitialTargets; 45; 32; 47; 8120; 101; AND; OR; 1502240.37; 1501089.55; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); 
+CLISTATISTICS; 1501089.55; 55; 1500569.36; 1504195.57; 2422;  1.22;  1.27;  1.29;  1.51; 163.70
+
+
+STIMULUS; 1504195.57; 56; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1504195.57; 56; 1; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1504195.57; 56; 2; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 1555942.27; 56; A; TASK_HIT; 2; 0
+
+REWARD; 1555942.27; 56; B; TASK_HIT; 2; 70
+
+TRIAL; 1552998.9; 56; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 33; 0; ABORT_NO_ABORT; 0; NoState; 54; 33; 33; 80; 116; AND; OR; 0; 1552998.9; 1553379.63; 1554061.11; 1554985.49; 1554985.49; 1554587.62; 1555154.84; 1555741.51; 1555730.23; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 33; 0; ABORT_NO_ABORT; 0; NoState; 46; 33; 48; 8260; 103; AND; OR; 0; 1552998.9; 1553266.77; 1553629.8; 1555018.93; 1555018.93; 1554587.62; 1555228.89; 1555741.51; 0; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 739,445 (28.94°,156.74™°); 
+CLISTATISTICS; 1552998.9; 56; 1505695.84; 1557395.96; 40016;  1.17;  1.21;  1.22;  1.26; 160.21
+
+
+STIMULUS; 1557395.96; 57; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1557395.96; 57; 1; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1557395.96; 57; 2; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 1696234.59; 57; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 33; 0; ABORT_NO_ABORT; 0; NoState; 55; 33; 33; 80; 116; AND; OR; 0; 1696234.59; 1696561.56; 1697104.42; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 1182,445 (29.05°,23.17™°); Linus; DAGDFGR; True; False; False; True; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 33; 29; NO_HAND_FIX_ACQUISITION; 4; ShowInitialTargets; 46; 33; 48; 8260; 103; AND; OR; 1697719.65; 1696234.59; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 1182,445 (29.05°,23.17™°); 
+CLISTATISTICS; 1696234.59; 57; 1694195.66; 1699675.07; 3902;  1.17;  1.25;  1.28;  1.50; 20.16
+
+
+STIMULUS; 1699675.07; 58; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1699675.07; 58; 1; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1699675.07; 58; 2; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 1707338.91; 58; RN; DAGDFGR; True; True; True; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 33; 0; ABORT_NO_ABORT; 0; NoState; 56; 33; 33; 80; 116; AND; OR; 0; 1707338.91; 1707712.93; 1708201.69; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 1182,445 (29.05°,23.17™°); Linus; DAGDFGR; True; True; True; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 33; 29; NO_HAND_FIX_ACQUISITION; 4; ShowInitialTargets; 47; 33; 48; 8260; 103; AND; OR; 1708827.17; 1707338.91; 1707426.37; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 1182,445 (29.05°,23.17™°); 
+CLISTATISTICS; 1707338.91; 58; 1706719.04; 1710781.91; 2833;  1.20;  1.27;  1.29;  1.51; 24.81
+
+
+STIMULUS; 1710781.91; 59; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1710781.91; 59; 1; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1710781.91; 59; 2; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 1743913.05; 59; A; TASK_HIT; 4; 0
+
+REWARD; 1743913.05; 59; B; TASK_HIT; 3; 70
+
+TRIAL; 1740802.36; 59; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 34; 0; ABORT_NO_ABORT; 0; NoState; 57; 34; 34; 80; 120; AND; OR; 0; 1740802.36; 1741264.68; 1741700.66; 1742925.64; 1742925.64; 1742391.11; 1743192.91; 1743712.25; 0; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 1182,445 (29.05°,23.17™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 34; 0; ABORT_NO_ABORT; 0; NoState; 48; 34; 49; 8470; 106; AND; OR; 0; 1740802.36; 1740804.07; 1741873.11; 1742795.08; 1742795.08; 1742391.11; 1743008.57; 1743712.25; 0; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 1182,445 (29.05°,23.17™°); 
+CLISTATISTICS; 1740802.36; 59; 1724268.86; 1746768.91; 17077;  1.17;  1.21;  1.22;  1.28; 161.04
+
+
+STIMULUS; 1746768.91; 60; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1746768.91; 60; 1; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1746768.91; 60; 2; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 1867861.12; 60; B; MANUAL; 1; 70
+
+REWARD; 1868213.52; 60; B; MANUAL; 1; 70
+
+REWARD; 1868725.39; 60; B; MANUAL; 1; 70
+
+TRIAL; 1872682.91; 60; RN; DAGDFGR; True; False; False; True; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 3; ABORT_BY_OTHER; 34; 0; ABORT_NO_ABORT; 0; NoState; 57; 34; 34; 80; 120; AND; OR; 0; 1872682.91; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); Linus; DAGDFGR; True; False; False; False; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 34; 26; WRONG_HAND_FIRST; 4; ShowInitialTargets; 48; 34; 52; 8680; 106; AND; OR; 1872812.21; 1872682.91; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); 
+CLISTATISTICS; 1872682.91; 60; 1822536.85; 1875117.32; 41569;  1.17;  1.21;  1.22;  1.23; 168.73
+
+
+STIMULUS; 1875117.32; 61; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1875117.32; 61; 1; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1875117.32; 61; 2; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 1900510.61; 61; RN; DAGDFGR; True; True; True; True; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 3; ABORT_BY_OTHER; 34; 0; ABORT_NO_ABORT; 0; NoState; 57; 34; 34; 80; 120; AND; OR; 0; 1900510.61; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); Linus; DAGDFGR; True; False; True; False; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 34; 26; WRONG_HAND_FIRST; 4; ShowInitialTargets; 48; 34; 52; 8680; 106; AND; OR; 1900513.47; 1900510.61; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); 
+CLISTATISTICS; 1900510.61; 61; 1876618.03; 1902819.47; 20636;  1.17;  1.21;  1.22;  1.23; 33.61
+
+
+STIMULUS; 1902819.47; 62; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1902819.47; 62; 1; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1902819.47; 62; 2; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 1908019.22; 62; A; TASK_HIT; 3; 0
+
+REWARD; 1908019.22; 62; B; TASK_HIT; 4; 70
+
+TRIAL; 1904841.97; 62; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 35; 0; ABORT_NO_ABORT; 0; NoState; 58; 35; 35; 80; 123; AND; OR; 0; 1904841.97; 1905195.96; 1905800.51; 1906780; 1906780; 1906330.34; 1906986.75; 1907818.73; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 739,500 (27.02°,169.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 35; 0; ABORT_NO_ABORT; 0; NoState; 49; 35; 53; 8960; 110; AND; OR; 0; 1904841.97; 1905363.83; 1905732.1; 1907112.94; 1907112.94; 1906330.34; 1907303.16; 1907818.73; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 739,500 (27.02°,169.74™°); 
+CLISTATISTICS; 1904841.97; 62; 1904320.42; 1911223.26; 4621;  1.23;  1.27;  1.35;  1.52; 165.92
+
+
+STIMULUS; 1911223.26; 63; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1911223.26; 63; 1; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1911223.26; 63; 2; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 1933589.44; 63; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 35; 0; ABORT_NO_ABORT; 0; NoState; 59; 35; 35; 80; 123; AND; OR; 0; 1933589.44; 1933951.09; 1934480.27; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); Linus; DAGDFGR; True; True; True; True; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 35; 29; NO_HAND_FIX_ACQUISITION; 4; ShowInitialTargets; 49; 35; 53; 8960; 110; AND; OR; 1935075.11; 1933589.44; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); 
+CLISTATISTICS; 1933589.44; 63; 1928014.62; 1938080.6; 7521;  1.18;  1.22;  1.27;  1.31; 20.30
+
+
+STIMULUS; 1938080.6; 64; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1938080.6; 64; 1; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1938080.6; 64; 2; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 1942954.68; 64; A; TASK_HIT; 3; 0
+
+REWARD; 1942954.68; 64; B; TASK_HIT; 4; 70
+
+TRIAL; 1940111.56; 64; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 36; 0; ABORT_NO_ABORT; 0; NoState; 60; 36; 36; 80; 126; AND; OR; 0; 1940111.56; 1940507.3; 1941023.44; 1941990.98; 1941990.98; 1941549.77; 1942229.75; 1942753.86; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 739,500 (27.02°,169.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 36; 0; ABORT_NO_ABORT; 0; NoState; 50; 36; 54; 9240; 114; AND; OR; 0; 1940111.56; 1940444.83; 1940875.92; 1941980; 1941980; 1941549.77; 1942229.75; 1942753.86; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 739,500 (27.02°,169.74™°); 
+CLISTATISTICS; 1940111.56; 64; 1939581.3; 1946159.56; 4515;  1.23;  1.27;  1.32;  1.51; 25.46
+
+
+STIMULUS; 1946159.56; 65; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1946159.56; 65; 1; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1946159.56; 65; 2; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 1951098.76; 65; A; TASK_HIT; 3; 0
+
+REWARD; 1951098.76; 65; B; TASK_HIT; 4; 70
+
+TRIAL; 1948188.95; 65; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 37; 0; ABORT_NO_ABORT; 0; NoState; 61; 37; 37; 80; 129; AND; OR; 0; 1948188.95; 1948482.13; 1949012.59; 1949974.2; 1949974.2; 1949526.81; 1950202.51; 1950898.18; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 739,556 (26.66°,184.14™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 37; 0; ABORT_NO_ABORT; 0; NoState; 51; 37; 55; 9520; 118; AND; OR; 0; 1948188.95; 1948519.12; 1948826.68; 1950194.28; 1950194.28; 1949526.81; 1950378.57; 1950898.18; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 739,556 (26.66°,184.14™°); 
+CLISTATISTICS; 1948188.95; 65; 1947660.57; 1954304; 4559;  1.23;  1.27;  1.32;  1.52; 29.42
+
+
+STIMULUS; 1954304; 66; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1954304; 66; 1; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1954304; 66; 2; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 1979029.36; 66; B; MANUAL; 1; 70
+
+REWARD; 1980581.51; 66; B; MANUAL; 1; 70
+
+REWARD; 1981067.91; 66; A; TASK_HIT; 3; 0
+
+REWARD; 1981067.91; 66; B; TASK_HIT; 4; 70
+
+TRIAL; 1978140.52; 66; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 38; 0; ABORT_NO_ABORT; 0; NoState; 62; 38; 38; 80; 132; AND; OR; 0; 1978140.52; 1978530.55; 1979038.74; 1979976.93; 1979976.93; 1979561.99; 1980134.93; 1980866.42; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 1182,445 (29.05°,23.17™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 38; 0; ABORT_NO_ABORT; 0; NoState; 52; 38; 58; 9940; 122; AND; OR; 0; 1978140.52; 1978389.52; 1978677.86; 1980134.93; 1980134.93; 1979561.99; 1980342.3; 1980866.42; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 1182,445 (29.05°,23.17™°); 
+CLISTATISTICS; 1978140.52; 66; 1969917.93; 1984272.41; 10577;  1.18;  1.22;  1.26;  1.36; 29.03
+
+
+STIMULUS; 1984272.41; 67; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 1984272.41; 67; 1; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 1984272.41; 67; 2; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 2056256.71; 67; A; TASK_HIT; 3; 0
+
+REWARD; 2056256.71; 67; B; TASK_HIT; 4; 70
+
+TRIAL; 2052793.66; 67; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 39; 0; ABORT_NO_ABORT; 0; NoState; 63; 39; 39; 80; 135; AND; OR; 0; 2052793.66; 2053211.41; 2053692.31; 2055205.09; 2055205.09; 2054666.68; 2055462.7; 2056054.71; 0; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 739,445 (28.94°,156.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 39; 0; ABORT_NO_ABORT; 0; NoState; 53; 39; 59; 10220; 126; AND; OR; 0; 2052793.66; 2053746.98; 2054143.82; 2055363.84; 2055363.84; 2054666.68; 2055544.23; 2056054.71; 0; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 739,445 (28.94°,156.74™°); 
+CLISTATISTICS; 2052793.66; 67; 1985773.57; 2059460.63; 57860;  1.17;  1.21;  1.22;  1.23; 25.33
+
+
+STIMULUS; 2059460.63; 68; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2059460.63; 68; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2059460.63; 68; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 2067041.97; 68; RN; DAGDFGR; True; False; False; False; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 39; 0; ABORT_NO_ABORT; 0; NoState; 64; 39; 39; 80; 135; AND; OR; 0; 2067041.97; 2067368.67; 2067847.92; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; True; True; True; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 39; 29; NO_HAND_FIX_ACQUISITION; 4; ShowInitialTargets; 53; 39; 59; 10220; 126; AND; OR; 2068529.12; 2067041.97; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 2067041.97; 68; 2060961.84; 2071533.94; 7864;  1.18;  1.22;  1.27;  1.33; 25.87
+
+
+STIMULUS; 2071533.94; 69; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2071533.94; 69; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2071533.94; 69; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 2132998.99; 69; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; True; 2; ABORT; 39; 31; NO_HAND_TARGET_ACQUISITION; 13; ShowChoiceTargets; 65; 39; 39; 80; 135; AND; OR; 2135774.14; 2132998.99; 2133380.68; 2133769.53; 2134795.2; 2134795.2; 2134286.67; 2135774.14; 0; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 2; ABORT; 39; 31; NO_HAND_TARGET_ACQUISITION; 13; ShowChoiceTargets; 54; 39; 59; 10220; 126; AND; OR; 2135774.14; 2132998.99; 2133374.61; 2133762.74; 0; 0; 2134286.67; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 2132998.99; 69; 2086788.77; 2138778.27; 40196;  1.17;  1.22;  1.22;  1.26; 172.15
+
+
+STIMULUS; 2138778.27; 70; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2138778.27; 70; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2138778.27; 70; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 2200795.82; 70; A; TASK_HIT; 3; 0
+
+REWARD; 2200795.82; 70; B; TASK_HIT; 4; 70
+
+TRIAL; 2197651.53; 70; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 40; 0; ABORT_NO_ABORT; 0; NoState; 66; 40; 40; 80; 138; AND; OR; 0; 2197651.53; 2198105.61; 2198541.64; 2199643.18; 2199643.18; 2199073.04; 2199850.53; 2200594.84; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 40; 0; ABORT_NO_ABORT; 0; NoState; 55; 40; 60; 10500; 130; AND; OR; 0; 2197651.53; 2197688.8; 2198021.09; 2199924.59; 2199924.59; 2199073.04; 2200074.49; 2200594.84; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 2197651.53; 70; 2187352.02; 2204003.2; 12274;  1.18;  1.22;  1.25;  1.34; 159.87
+
+
+STIMULUS; 2204003.2; 71; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2204003.2; 71; 1; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2204003.2; 71; 2; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 2224207.88; 71; A; TASK_HIT; 3; 0
+
+REWARD; 2224207.88; 71; B; TASK_HIT; 4; 70
+
+TRIAL; 2221281.66; 71; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 41; 0; ABORT_NO_ABORT; 0; NoState; 67; 41; 41; 80; 141; AND; OR; 0; 2221281.66; 2221625.88; 2222109.27; 2223132.96; 2223132.96; 2222636.25; 2223351.06; 2224007.57; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 1182,500 (27.14°,10.21™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 41; 0; ABORT_NO_ABORT; 0; NoState; 56; 41; 61; 10780; 134; AND; OR; 0; 2221281.66; 2221607.1; 2221964.81; 2223312.07; 2223312.07; 2222636.25; 2223480.1; 2224007.57; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 1182,500 (27.14°,10.21™°); 
+CLISTATISTICS; 2221281.66; 71; 2219820.87; 2227411.58; 5288;  1.18;  1.27;  1.30;  1.50; 27.88
+
+
+STIMULUS; 2227411.58; 72; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2227411.58; 72; 1; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2227411.58; 72; 2; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 2234543.3; 72; RN; DAGDFGR; True; True; True; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 41; 0; ABORT_NO_ABORT; 0; NoState; 68; 41; 41; 80; 141; AND; OR; 0; 2234543.3; 2234906.55; 2235368.2; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 739,556 (26.66°,184.14™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 41; 28; EARLY_HAND_FIX_RELEASE; 5; ShowInitialTargetsHold; 57; 41; 61; 10780; 134; AND; OR; 2235501.35; 2234543.3; 2234707.1; 2235194.44; 2235501.35; 2235480.9; 0; 0; 0; 2235480.9; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 739,556 (26.66°,184.14™°); 
+CLISTATISTICS; 2234543.3; 72; 2228912.62; 2238506.99; 7112;  1.17;  1.22;  1.25;  1.29; 182.86
+
+
+STIMULUS; 2238506.99; 73; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2238506.99; 73; 1; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2238506.99; 73; 2; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 2248021.91; 73; A; TASK_HIT; 3; 0
+
+REWARD; 2248021.91; 73; B; TASK_HIT; 4; 70
+
+TRIAL; 2244911.79; 73; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 42; 0; ABORT_NO_ABORT; 0; NoState; 69; 42; 42; 80; 144; AND; OR; 0; 2244911.79; 2245249.42; 2245754.47; 2246729.15; 2246729.15; 2246283.12; 2247009.46; 2247821.65; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 739,556 (26.66°,184.14™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 42; 0; ABORT_NO_ABORT; 0; NoState; 58; 42; 62; 11060; 138; AND; OR; 0; 2244911.79; 2245255.88; 2245689.69; 2247134.7; 2247134.7; 2246283.12; 2247308.83; 2247821.65; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 739,556 (26.66°,184.14™°); 
+CLISTATISTICS; 2244911.79; 73; 2240008.11; 2251226.21; 8005;  1.18;  1.22;  1.28;  1.47; 164.77
+
+
+STIMULUS; 2251226.21; 74; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2251226.21; 74; 1; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2251226.21; 74; 2; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 2313076.73; 74; A; TASK_HIT; 3; 0
+
+REWARD; 2313076.73; 74; B; TASK_HIT; 4; 70
+
+TRIAL; 2310283.47; 74; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 43; 0; ABORT_NO_ABORT; 0; NoState; 70; 43; 43; 80; 147; AND; OR; 0; 2310283.47; 2310643.73; 2311159.64; 2312117.7; 2312117.7; 2311688.22; 2312351.75; 2312875.58; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 739,500 (27.02°,169.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 43; 0; ABORT_NO_ABORT; 0; NoState; 59; 43; 63; 11340; 142; AND; OR; 0; 2310283.47; 2310374.88; 2310747.69; 2312102.86; 2312102.86; 2311688.22; 2312231.66; 2312875.58; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 739,500 (27.02°,169.74™°); 
+CLISTATISTICS; 2310283.47; 74; 2308756.98; 2316281.57; 5261;  1.18;  1.27;  1.29;  1.50; 32.40
+
+
+STIMULUS; 2316281.57; 75; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2316281.57; 75; 1; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2316281.57; 75; 2; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 2331505.43; 75; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 43; 0; ABORT_NO_ABORT; 0; NoState; 71; 43; 43; 80; 147; AND; OR; 0; 2331505.43; 2331850.13; 2332297.91; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 43; 28; EARLY_HAND_FIX_RELEASE; 5; ShowInitialTargetsHold; 60; 43; 63; 11340; 142; AND; OR; 2332830.62; 2331505.43; 2331507.09; 2332737.37; 2332830.62; 2332810.07; 0; 0; 0; 2332810.07; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); 
+CLISTATISTICS; 2331505.43; 75; 2317781.84; 2335836.88; 13787;  1.18;  1.22;  1.22;  1.27; 172.78
+
+
+STIMULUS; 2335836.88; 76; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2335836.88; 76; 1; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2335836.88; 76; 2; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 2373828.61; 76; B; MANUAL; 1; 70
+
+REWARD; 2374084.56; 76; B; MANUAL; 1; 70
+
+TRIAL; 2380003.21; 76; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 43; 0; ABORT_NO_ABORT; 0; NoState; 72; 43; 43; 80; 147; AND; OR; 0; 2380003.21; 2380334.57; 2380843.49; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); Linus; DAGDFGR; True; True; True; True; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 43; 29; NO_HAND_FIX_ACQUISITION; 4; ShowInitialTargets; 60; 43; 65; 11480; 142; AND; OR; 2381482.49; 2380003.21; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); 
+CLISTATISTICS; 2380003.21; 76; 2376767.18; 2383437.6; 4868;  1.18;  1.23;  1.28;  1.44; 20.79
+
+
+STIMULUS; 2383437.6; 77; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2383437.6; 77; 1; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2383437.6; 77; 2; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 2385455.03; 77; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 3; ABORT_BY_OTHER; 43; 0; ABORT_NO_ABORT; 0; NoState; 73; 43; 43; 80; 147; AND; OR; 0; 2385455.03; 2385928.17; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); Linus; DAGDFGR; True; False; False; False; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 43; 26; WRONG_HAND_FIRST; 4; ShowInitialTargets; 60; 43; 65; 11480; 142; AND; OR; 2386229.18; 2385455.03; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); 
+CLISTATISTICS; 2385455.03; 77; 2384938.92; 2388185.42; 2287;  1.23;  1.27;  1.29;  1.50; 29.91
+
+
+STIMULUS; 2388185.42; 78; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2388185.42; 78; 1; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2388185.42; 78; 2; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 2390204.47; 78; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 43; 0; ABORT_NO_ABORT; 0; NoState; 74; 43; 43; 80; 147; AND; OR; 0; 2390204.47; 2390719.06; 2391231.45; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); Linus; DAGDFGR; True; True; True; True; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 43; 29; NO_HAND_FIX_ACQUISITION; 4; ShowInitialTargets; 60; 43; 65; 11480; 142; AND; OR; 2391690.02; 2390204.47; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); 
+CLISTATISTICS; 2390204.47; 78; 2389685.94; 2393644.89; 2748;  1.23;  1.28;  1.30;  1.52; 18.97
+
+
+STIMULUS; 2393644.89; 79; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2393644.89; 79; 1; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2393644.89; 79; 2; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 2396693.15; 79; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 43; 0; ABORT_NO_ABORT; 0; NoState; 75; 43; 43; 80; 147; AND; OR; 0; 2396693.15; 2397098; 2397537.79; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); Linus; DAGDFGR; True; True; True; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 43; 29; NO_HAND_FIX_ACQUISITION; 4; ShowInitialTargets; 61; 43; 65; 11480; 142; AND; OR; 2398182.13; 2396693.15; 2397755.1; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); 
+CLISTATISTICS; 2396693.15; 79; 2395146.35; 2400137.65; 3540;  1.18;  1.26;  1.28;  1.51; 24.34
+
+
+STIMULUS; 2400137.65; 80; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2400137.65; 80; 1; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2400137.65; 80; 2; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 2406176.05; 80; A; TASK_HIT; 3; 0
+
+REWARD; 2406176.05; 80; B; TASK_HIT; 4; 70
+
+TRIAL; 2403415.93; 80; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 44; 0; ABORT_NO_ABORT; 0; NoState; 76; 44; 44; 80; 150; AND; OR; 0; 2403415.93; 2403840.53; 2404295.83; 2405255.42; 2405255.42; 2404820.69; 2405458.79; 2405974.61; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 739,500 (27.02°,169.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 44; 0; ABORT_NO_ABORT; 0; NoState; 62; 44; 66; 11760; 146; AND; OR; 0; 2403415.93; 2403909.41; 2404255.3; 2405286.83; 2405286.83; 2404820.69; 2405458.79; 2405974.61; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 739,500 (27.02°,169.74™°); 
+CLISTATISTICS; 2403415.93; 80; 2401638.02; 2409379.96; 5358;  1.18;  1.26;  1.28;  1.49; 162.11
+
+
+STIMULUS; 2409379.96; 81; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2409379.96; 81; 1; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2409379.96; 81; 2; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 2414954.96; 81; A; TASK_HIT; 4; 0
+
+REWARD; 2414954.96; 81; B; TASK_HIT; 3; 70
+
+TRIAL; 2411409.71; 81; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 45; 0; ABORT_NO_ABORT; 0; NoState; 77; 45; 45; 80; 154; AND; OR; 0; 2411409.71; 2411778.46; 2412254.6; 2413533.22; 2413533.22; 2413031.96; 2413752.91; 2414754.38; 0; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 1182,445 (29.05°,23.17™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 45; 0; ABORT_NO_ABORT; 0; NoState; 63; 45; 67; 11970; 149; AND; OR; 0; 2411409.71; 2412175.17; 2412513.4; 2414022.38; 2414022.38; 2413031.96; 2414226.87; 2414754.38; 0; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 1182,445 (29.05°,23.17™°); 
+CLISTATISTICS; 2411409.71; 81; 2410881.12; 2417808.81; 4561;  1.23;  1.28;  1.45;  1.52; 161.55
+
+
+STIMULUS; 2417808.81; 82; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2417808.81; 82; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2417808.81; 82; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 2419838.28; 82; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 45; 0; ABORT_NO_ABORT; 0; NoState; 78; 45; 45; 80; 154; AND; OR; 0; 2419838.28; 2420347.06; 2420840.4; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; True; True; True; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 45; 29; NO_HAND_FIX_ACQUISITION; 4; ShowInitialTargets; 63; 45; 67; 11970; 149; AND; OR; 2421313.01; 2419838.28; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 2419838.28; 82; 2419309.77; 2424318.41; 3531;  1.23;  1.27;  1.29;  1.51; 25.82
+
+
+STIMULUS; 2424318.41; 83; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2424318.41; 83; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2424318.41; 83; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 2429807.29; 83; A; TASK_HIT; 2; 0
+
+REWARD; 2429807.29; 83; B; TASK_HIT; 2; 70
+
+TRIAL; 2426343.68; 83; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 46; 0; ABORT_NO_ABORT; 0; NoState; 79; 46; 46; 80; 156; AND; OR; 0; 2426343.68; 2426701.25; 2427155.31; 2428861.44; 2428861.44; 2428317.05; 2429053.39; 2429604.73; 2429586.57; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 46; 0; ABORT_NO_ABORT; 0; NoState; 64; 46; 68; 12110; 151; AND; OR; 0; 2426343.68; 2427424.94; 2427799.59; 2428944.7; 2428944.7; 2428317.05; 2429086.57; 2429604.73; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 2426343.68; 83; 2425819.67; 2431261.78; 3481;  1.23;  1.29;  1.49;  1.53; 160.80
+
+
+STIMULUS; 2431261.78; 84; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2431261.78; 84; 1; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2431261.78; 84; 2; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 2433283.88; 84; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 46; 0; ABORT_NO_ABORT; 0; NoState; 80; 46; 46; 80; 156; AND; OR; 0; 2433283.88; 2433939.08; 2434383.68; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); Linus; DAGDFGR; True; True; True; True; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 46; 29; NO_HAND_FIX_ACQUISITION; 4; ShowInitialTargets; 64; 46; 68; 12110; 151; AND; OR; 2434767.53; 2433283.88; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); 
+CLISTATISTICS; 2433283.88; 84; 2432762.43; 2436724.27; 2747;  1.23;  1.28;  1.29;  1.52; 21.55
+
+
+STIMULUS; 2436724.27; 85; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2436724.27; 85; 1; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2436724.27; 85; 2; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 2446311.65; 85; A; TASK_HIT; 2; 0
+
+REWARD; 2446311.65; 85; B; TASK_HIT; 2; 70
+
+TRIAL; 2443434.97; 85; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 47; 0; ABORT_NO_ABORT; 0; NoState; 81; 47; 47; 80; 158; AND; OR; 0; 2443434.97; 2443884.92; 2444423.2; 2445395.2; 2445395.2; 2444940.07; 2445590.28; 2446110.7; 2446090.83; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 47; 0; ABORT_NO_ABORT; 0; NoState; 65; 47; 69; 12250; 153; AND; OR; 0; 2443434.97; 2443907.47; 2444278.51; 2445379.18; 2445379.18; 2444940.07; 2445538; 2446110.7; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 739,500 (27.02°,169.74™°); 
+CLISTATISTICS; 2443434.97; 85; 2438225.21; 2447765.96; 6888;  1.18;  1.22;  1.27;  1.48; 20.04
+
+
+STIMULUS; 2447765.96; 86; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2447765.96; 86; 1; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2447765.96; 86; 2; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 2463286.62; 86; RN; DAGDFGR; True; False; True; False; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 47; 0; ABORT_NO_ABORT; 0; NoState; 82; 47; 47; 80; 158; AND; OR; 0; 2463286.62; 2463593.23; 2464109.63; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 47; 29; NO_HAND_FIX_ACQUISITION; 4; ShowInitialTargets; 66; 47; 69; 12250; 153; AND; OR; 2464764.82; 2463286.62; 2463731.22; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); 
+CLISTATISTICS; 2463286.62; 86; 2449266.21; 2466719.63; 13447;  1.17;  1.22;  1.22;  1.27; 23.01
+
+
+STIMULUS; 2466719.63; 87; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2466719.63; 87; 1; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2466719.63; 87; 2; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 2471781.67; 87; A; TASK_HIT; 2; 0
+
+REWARD; 2471781.67; 87; B; TASK_HIT; 2; 70
+
+TRIAL; 2468737.44; 87; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 48; 0; ABORT_NO_ABORT; 0; NoState; 83; 48; 48; 80; 160; AND; OR; 0; 2468737.44; 2469068.5; 2469550.78; 2470857.85; 2470857.85; 2470409.78; 2471016.53; 2471580.41; 2471557.19; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 48; 0; ABORT_NO_ABORT; 0; NoState; 67; 48; 70; 12390; 155; AND; OR; 0; 2468737.44; 2469594.85; 2469892.56; 2470857.85; 2470857.85; 2470409.78; 2471055.87; 2471580.41; 0; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 739,445 (28.94°,156.74™°); 
+CLISTATISTICS; 2468737.44; 87; 2468220.76; 2473236.83; 3322;  1.23;  1.28;  1.47;  1.52; 27.23
+
+
+STIMULUS; 2473236.83; 88; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2473236.83; 88; 1; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2473236.83; 88; 2; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 2475259.55; 88; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 48; 0; ABORT_NO_ABORT; 0; NoState; 84; 48; 48; 80; 160; AND; OR; 0; 2475259.55; 2475643.66; 2476113.35; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 48; 29; NO_HAND_FIX_ACQUISITION; 4; ShowInitialTargets; 68; 48; 70; 12390; 155; AND; OR; 2476743.49; 2475259.55; 2476505.3; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); 
+CLISTATISTICS; 2475259.55; 88; 2474738.85; 2478698.15; 2733;  1.23;  1.28;  1.30;  1.52; 21.36
+
+
+STIMULUS; 2478698.15; 89; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2478698.15; 89; 1; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2478698.15; 89; 2; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 2484507.53; 89; A; TASK_HIT; 2; 0
+
+REWARD; 2484507.53; 89; B; TASK_HIT; 2; 70
+
+TRIAL; 2481748.22; 89; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 49; 0; ABORT_NO_ABORT; 0; NoState; 85; 49; 49; 80; 162; AND; OR; 0; 2481748.22; 2482166.63; 2482637.97; 2483594.21; 2483594.21; 2483153.09; 2483785.87; 2484306.89; 2484286.64; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 49; 0; ABORT_NO_ABORT; 0; NoState; 69; 49; 71; 12530; 157; AND; OR; 0; 2481748.22; 2482183.69; 2482513.27; 2483576.66; 2483576.66; 2483153.09; 2483754.08; 2484306.89; 0; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 739,445 (28.94°,156.74™°); 
+CLISTATISTICS; 2481748.22; 89; 2480637.73; 2485962.49; 3628;  1.18;  1.27;  1.37;  1.52; 24.51
+
+
+STIMULUS; 2485962.49; 90; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2485962.49; 90; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2485962.49; 90; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 2487986.04; 90; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 49; 31; NO_HAND_TARGET_ACQUISITION; 13; ShowChoiceTargets; 86; 49; 49; 80; 162; AND; OR; 2490849.94; 2487986.04; 2488370.99; 2488844.98; 2489912.39; 2489912.39; 2489374.08; 2490165.89; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; True; True; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 2; ABORT; 49; 31; NO_HAND_TARGET_ACQUISITION; 13; ShowChoiceTargets; 70; 49; 71; 12530; 157; AND; OR; 2490849.94; 2487986.04; 2488157.18; 2488489.99; 0; 0; 2489374.08; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 2487986.04; 90; 2487463.33; 2492805.06; 3446;  1.23;  1.28;  1.48;  1.53; 174.65
+
+
+STIMULUS; 2492805.06; 91; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2492805.06; 91; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2492805.06; 91; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 2498907.11; 91; A; TASK_HIT; 4; 0
+
+REWARD; 2498907.11; 91; B; TASK_HIT; 3; 70
+
+TRIAL; 2495645.34; 91; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 50; 0; ABORT_NO_ABORT; 0; NoState; 87; 50; 50; 80; 166; AND; OR; 0; 2495645.34; 2495965.96; 2496418.4; 2497667.03; 2497667.03; 2497083.56; 2497953.53; 2498705.71; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 50; 0; ABORT_NO_ABORT; 0; NoState; 71; 50; 72; 12740; 160; AND; OR; 0; 2495645.34; 2496243.32; 2496563.87; 2498004.93; 2498004.93; 2497083.56; 2498189.53; 2498705.71; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 2495645.34; 91; 2494306.01; 2501763.62; 5027;  1.18;  1.26;  1.33;  1.52; 168.20
+
+
+STIMULUS; 2501763.62; 92; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2501763.62; 92; 1; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2501763.62; 92; 2; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 2562806.32; 92; A; TASK_HIT; 2; 0
+
+REWARD; 2562806.32; 92; B; TASK_HIT; 2; 70
+
+TRIAL; 2559612.26; 92; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 51; 0; ABORT_NO_ABORT; 0; NoState; 88; 51; 51; 80; 168; AND; OR; 0; 2559612.26; 2559958.22; 2560487.09; 2561770.29; 2561770.29; 2561351.48; 2562093.48; 2562605.71; 2562594.01; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 1182,445 (29.05°,23.17™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 51; 0; ABORT_NO_ABORT; 0; NoState; 72; 51; 73; 12880; 162; AND; OR; 0; 2559612.26; 2560482.6; 2560826.48; 2561802.21; 2561802.21; 2561351.48; 2561963.39; 2562605.71; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 1182,445 (29.05°,23.17™°); 
+CLISTATISTICS; 2559612.26; 92; 2559006.1; 2564260.68; 3395;  1.20;  1.28;  1.47;  1.52; 161.48
+
+
+STIMULUS; 2564260.68; 93; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2564260.68; 93; 1; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2564260.68; 93; 2; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 2566602.62; 93; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 51; 31; NO_HAND_TARGET_ACQUISITION; 13; ShowChoiceTargets; 89; 51; 51; 80; 168; AND; OR; 2569693.9; 2566602.62; 2567070.78; 2567551.15; 2568642.87; 2568642.87; 2568208.07; 2568821.17; 0; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 739,556 (26.66°,184.14™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 51; 31; NO_HAND_TARGET_ACQUISITION; 13; ShowChoiceTargets; 73; 51; 73; 12880; 162; AND; OR; 2569693.9; 2566602.62; 2567355.2; 2567689.02; 2569680.18; 2569680.18; 2568208.07; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 739,556 (26.66°,184.14™°); 
+CLISTATISTICS; 2566602.62; 93; 2565762.05; 2571649.23; 3856;  1.17;  1.27;  1.47;  1.52; 173.34
+
+
+STIMULUS; 2571649.23; 94; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2571649.23; 94; 1; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2571649.23; 94; 2; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 2576302.18; 94; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 51; 0; ABORT_NO_ABORT; 0; NoState; 90; 51; 51; 80; 168; AND; OR; 0; 2576302.18; 2576701.37; 2577198.13; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 739,556 (26.66°,184.14™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 2; ABORT; 51; 27; WRONG_HAND_SECOND; 5; ShowInitialTargetsHold; 74; 51; 73; 12880; 162; AND; OR; 2577645.68; 2576302.18; 2576518.93; 2576781.62; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 739,556 (26.66°,184.14™°); 
+CLISTATISTICS; 2576302.18; 94; 2573149.75; 2579600.73; 4600;  1.17;  1.22;  1.26;  1.41; 171.24
+
+
+STIMULUS; 2579600.73; 95; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2579600.73; 95; 1; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2579600.73; 95; 2; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 2602959.24; 95; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 51; 31; NO_HAND_TARGET_ACQUISITION; 13; ShowChoiceTargets; 91; 51; 51; 80; 168; AND; OR; 2605757.01; 2602959.24; 2603272.57; 2603754.04; 2604706.19; 2604706.19; 2604280.39; 2604891.59; 0; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 739,556 (26.66°,184.14™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 2; ABORT; 51; 31; NO_HAND_TARGET_ACQUISITION; 13; ShowChoiceTargets; 75; 51; 73; 12880; 162; AND; OR; 2605757.01; 2602959.24; 2603036.16; 2603445.35; 0; 0; 2604280.39; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 739,556 (26.66°,184.14™°); 
+CLISTATISTICS; 2602959.24; 95; 2581102.17; 2607713.65; 20413;  1.17;  1.21;  1.22;  1.26; 164.21
+
+
+STIMULUS; 2607713.65; 96; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2607713.65; 96; 1; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2607713.65; 96; 2; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 2611922.97; 96; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 51; 31; NO_HAND_TARGET_ACQUISITION; 13; ShowChoiceTargets; 92; 51; 51; 80; 168; AND; OR; 2614786.55; 2611922.97; 2612285.82; 2612783.06; 2613754.84; 2613754.84; 2613310.99; 2614007.11; 0; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 739,556 (26.66°,184.14™°); Linus; DAGDFGR; True; True; True; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 2; ABORT; 51; 31; NO_HAND_TARGET_ACQUISITION; 13; ShowChoiceTargets; 76; 51; 73; 12880; 162; AND; OR; 2614786.55; 2611922.97; 2612336.54; 2612709.1; 0; 0; 2613310.99; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 739,556 (26.66°,184.14™°); 
+CLISTATISTICS; 2611922.97; 96; 2609214.8; 2616742.06; 5295;  1.17;  1.24;  1.28;  1.51; 35.28
+
+
+STIMULUS; 2616742.06; 97; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2616742.06; 97; 1; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2616742.06; 97; 2; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 2619364.87; 97; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 3; ABORT_BY_OTHER; 51; 0; ABORT_NO_ABORT; 0; NoState; 93; 51; 51; 80; 168; AND; OR; 0; 2619364.87; 2619698.63; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 739,556 (26.66°,184.14™°); Linus; DAGDFGR; True; False; False; False; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 51; 27; WRONG_HAND_SECOND; 4; ShowInitialTargets; 77; 51; 73; 12880; 162; AND; OR; 2620104.29; 2619364.87; 2619910.21; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 739,556 (26.66°,184.14™°); 
+CLISTATISTICS; 2619364.87; 97; 2618705.56; 2622059.77; 2300;  1.20;  1.26;  1.28;  1.48; 168.45
+
+
+STIMULUS; 2622059.77; 98; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2622059.77; 98; 1; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2622059.77; 98; 2; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 2656290.09; 98; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 51; 0; ABORT_NO_ABORT; 0; NoState; 94; 51; 51; 80; 168; AND; OR; 0; 2656290.09; 2656571.07; 2657074.95; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 739,556 (26.66°,184.14™°); Linus; DAGDFGR; True; False; False; True; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 51; 29; NO_HAND_FIX_ACQUISITION; 4; ShowInitialTargets; 77; 51; 73; 12880; 162; AND; OR; 2657776.59; 2656290.09; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 739,556 (26.66°,184.14™°); 
+CLISTATISTICS; 2656290.09; 98; 2635412.88; 2659732.02; 18767;  1.17;  1.21;  1.22;  1.28; 17.95
+
+
+STIMULUS; 2659732.02; 99; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2659732.02; 99; 1; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2659732.02; 99; 2; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 2665036.03; 99; A; TASK_HIT; 2; 0
+
+REWARD; 2665036.03; 99; B; TASK_HIT; 2; 70
+
+TRIAL; 2661792.07; 99; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 52; 0; ABORT_NO_ABORT; 0; NoState; 95; 52; 52; 80; 170; AND; OR; 0; 2661792.07; 2662223.93; 2662644.47; 2664006.8; 2664006.8; 2663497.86; 2664183.37; 2664835.73; 2664816.39; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 739,556 (26.66°,184.14™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 52; 0; ABORT_NO_ABORT; 0; NoState; 78; 52; 74; 13020; 164; AND; OR; 0; 2661792.07; 2662656.28; 2662970.39; 2664183.37; 2664183.37; 2663497.86; 2664315.06; 2664835.73; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 739,556 (26.66°,184.14™°); 
+CLISTATISTICS; 2661792.07; 99; 2661232.89; 2666491.31; 3381;  1.19;  1.28;  1.48;  1.52; 160.29
+
+
+STIMULUS; 2666491.31; 100; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2666491.31; 100; 1; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2666491.31; 100; 2; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 2679954.47; 100; A; TASK_HIT; 4; 0
+
+REWARD; 2679954.47; 100; B; TASK_HIT; 3; 70
+
+TRIAL; 2677060.57; 100; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 53; 0; ABORT_NO_ABORT; 0; NoState; 96; 53; 53; 80; 174; AND; OR; 0; 2677060.57; 2677404.88; 2677930.55; 2679021.55; 2679021.55; 2678448.58; 2679231.38; 2679752.98; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 1182,500 (27.14°,10.21™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 53; 0; ABORT_NO_ABORT; 0; NoState; 79; 53; 75; 13230; 167; AND; OR; 0; 2677060.57; 2677404.88; 2677722.85; 2678558.25; 2678558.25; 2678448.58; 2678998.19; 2679752.98; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 1182,500 (27.14°,10.21™°); 
+CLISTATISTICS; 2677060.57; 100; 2676501.56; 2682809.23; 4193;  1.18;  1.27;  1.36;  1.51; 166.21
+
+
+STIMULUS; 2682809.23; 101; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2682809.23; 101; 1; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2682809.23; 101; 2; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 2692730.3; 101; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 53; 0; ABORT_NO_ABORT; 0; NoState; 97; 53; 53; 80; 174; AND; OR; 0; 2692730.3; 2693054.47; 2693475.64; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 739,556 (26.66°,184.14™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 53; 29; NO_HAND_FIX_ACQUISITION; 4; ShowInitialTargets; 80; 53; 75; 13230; 167; AND; OR; 2694206.58; 2692730.3; 2692775.92; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 739,556 (26.66°,184.14™°); 
+CLISTATISTICS; 2692730.3; 101; 2684601.79; 2697212.3; 9605;  1.17;  1.21;  1.22;  1.28; 25.04
+
+
+STIMULUS; 2697212.3; 102; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2697212.3; 102; 1; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2697212.3; 102; 2; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 2753102.36; 102; A; TASK_HIT; 3; 0
+
+REWARD; 2753102.36; 102; B; TASK_HIT; 4; 70
+
+TRIAL; 2750141.66; 102; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 54; 0; ABORT_NO_ABORT; 0; NoState; 98; 54; 54; 80; 177; AND; OR; 0; 2750141.66; 2750546.49; 2750990.72; 2751977.94; 2751977.94; 2751512.97; 2752213.68; 2752901.01; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 739,556 (26.66°,184.14™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 54; 0; ABORT_NO_ABORT; 0; NoState; 81; 54; 76; 13510; 171; AND; OR; 0; 2750141.66; 2750436.43; 2750752.8; 2752172.29; 2752172.29; 2751512.97; 2752377.82; 2752901.01; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 739,556 (26.66°,184.14™°); 
+CLISTATISTICS; 2750141.66; 102; 2715039.89; 2756306.4; 31719;  1.17;  1.21;  1.22;  1.28; 153.02
+
+
+STIMULUS; 2756306.4; 103; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2756306.4; 103; 1; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2756306.4; 103; 2; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 2785478.87; 103; A; TASK_HIT; 3; 0
+
+REWARD; 2785478.87; 103; B; TASK_HIT; 4; 70
+
+TRIAL; 2782484.68; 103; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 55; 0; ABORT_NO_ABORT; 0; NoState; 99; 55; 55; 80; 180; AND; OR; 0; 2782484.68; 2782866.66; 2783306.54; 2784378.99; 2784378.99; 2783922.88; 2784534.38; 2785277.48; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 1182,500 (27.14°,10.21™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 55; 0; ABORT_NO_ABORT; 0; NoState; 82; 55; 77; 13790; 175; AND; OR; 0; 2782484.68; 2782972.59; 2783395.86; 2784607.48; 2784607.48; 2783922.88; 2784758.2; 2785277.48; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 1182,500 (27.14°,10.21™°); 
+CLISTATISTICS; 2782484.68; 103; 2760684.27; 2788683.9; 21496;  1.17;  1.21;  1.22;  1.27; 31.91
+
+
+STIMULUS; 2788683.9; 104; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2788683.9; 104; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2788683.9; 104; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 2803121.96; 104; A; TASK_HIT; 3; 0
+
+REWARD; 2803121.96; 104; B; TASK_HIT; 4; 70
+
+TRIAL; 2800144.56; 104; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 56; 0; ABORT_NO_ABORT; 0; NoState; 100; 56; 56; 80; 183; AND; OR; 0; 2800144.56; 2800466.18; 2800912.61; 2802018.46; 2802018.46; 2801432.26; 2802219.95; 2802920.66; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 56; 0; ABORT_NO_ABORT; 0; NoState; 83; 56; 78; 14070; 179; AND; OR; 0; 2800144.56; 2800475.66; 2800805.16; 2802270.19; 2802270.19; 2801432.26; 2802409.3; 2802920.66; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 2800144.56; 104; 2793423.03; 2806326.28; 9433;  1.17;  1.22;  1.27;  1.44; 27.92
+
+
+STIMULUS; 2806326.28; 105; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2806326.28; 105; 1; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2806326.28; 105; 2; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 2810178.59; 105; RN; DAGDFGR; True; True; True; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 56; 0; ABORT_NO_ABORT; 0; NoState; 101; 56; 56; 80; 183; AND; OR; 0; 2810178.59; 2810535.64; 2811093.76; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); Linus; DAGDFGR; True; False; True; False; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 56; 27; WRONG_HAND_SECOND; 4; ShowInitialTargets; 84; 56; 78; 14070; 179; AND; OR; 2811112.88; 2810178.59; 2810732.85; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); 
+CLISTATISTICS; 2810178.59; 105; 2807826.78; 2814118.76; 4509;  1.17;  1.23;  1.27;  1.35; 165.52
+
+
+STIMULUS; 2814118.76; 106; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2814118.76; 106; 1; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2814118.76; 106; 2; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 2924228.78; 106; B; MANUAL; 1; 70
+
+REWARD; 2924500.84; 106; B; MANUAL; 1; 70
+
+REWARD; 2958799.41; 106; A; TASK_HIT; 3; 0
+
+REWARD; 2958799.41; 106; B; TASK_HIT; 4; 70
+
+TRIAL; 2955922.81; 106; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 57; 0; ABORT_NO_ABORT; 0; NoState; 102; 57; 57; 80; 186; AND; OR; 0; 2955922.81; 2956227.32; 2956737.24; 2957812.39; 2957812.39; 2957327.58; 2958023.58; 2958598.54; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 739,500 (27.02°,169.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 57; 0; ABORT_NO_ABORT; 0; NoState; 85; 57; 81; 14490; 183; AND; OR; 0; 2955922.81; 2956396.3; 2956811.9; 2957923.45; 2957923.45; 2957327.58; 2958073.29; 2958598.54; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 739,500 (27.02°,169.74™°); 
+CLISTATISTICS; 2955922.81; 106; 2927334.35; 2962003.66; 26824;  1.17;  1.21;  1.22;  1.25; 167.57
+
+
+STIMULUS; 2962003.66; 107; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 2962003.66; 107; 1; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 2962003.66; 107; 2; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 3033318.59; 107; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 57; 0; ABORT_NO_ABORT; 0; NoState; 103; 57; 57; 80; 186; AND; OR; 0; 3033318.59; 3033760.55; 3034190.45; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 57; 28; EARLY_HAND_FIX_RELEASE; 5; ShowInitialTargetsHold; 86; 57; 81; 14490; 183; AND; OR; 3034564.03; 3033318.59; 3033319.96; 3033739.56; 3034564.03; 3034543.18; 0; 0; 0; 3034543.18; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); 
+CLISTATISTICS; 3033318.59; 107; 3005494.59; 3037568.35; 24712;  1.17;  1.21;  1.22;  1.27; 160.21
+
+
+STIMULUS; 3037568.35; 108; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 3037568.35; 108; 1; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 3037568.35; 108; 2; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 3154579.77; 108; RN; DAGDFGR; True; True; True; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 57; 0; ABORT_NO_ABORT; 0; NoState; 104; 57; 57; 80; 186; AND; OR; 0; 3154579.77; 3154966; 3155423.09; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 57; 28; EARLY_HAND_FIX_RELEASE; 5; ShowInitialTargetsHold; 87; 57; 81; 14490; 183; AND; OR; 3155469.95; 3154579.77; 3154581.15; 3155043.61; 3155469.95; 3155449.54; 0; 0; 0; 3155449.54; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 739,500 (27.02°,169.74™°); 
+CLISTATISTICS; 3154579.77; 108; 3151020.05; 3158475.34; 5568;  1.17;  1.22;  1.26;  1.29; 35.04
+
+
+STIMULUS; 3158475.34; 109; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 3158475.34; 109; 1; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 3158475.34; 109; 2; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 3266493.02; 109; A; TASK_HIT; 3; 0
+
+REWARD; 3266493.02; 109; B; TASK_HIT; 4; 70
+
+TRIAL; 3263666.36; 109; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 58; 0; ABORT_NO_ABORT; 0; NoState; 105; 58; 58; 80; 189; AND; OR; 0; 3263666.36; 3263983.9; 3264458.92; 3265396.15; 3265396.15; 3264987.51; 3265571.84; 3266291.93; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 739,500 (27.02°,169.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 58; 0; ABORT_NO_ABORT; 0; NoState; 88; 58; 82; 14770; 187; AND; OR; 0; 3263666.36; 3263755.33; 3264182.76; 3265629.86; 3265629.86; 3264987.51; 3265778.01; 3266291.93; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 739,500 (27.02°,169.74™°); 
+CLISTATISTICS; 3263666.36; 109; 3239390.55; 3269698.61; 23336;  1.17;  1.21;  1.22;  1.26; 163.15
+
+
+STIMULUS; 3269698.61; 110; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 3269698.61; 110; 1; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 3269698.61; 110; 2; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 3322130.97; 110; A; TASK_HIT; 3; 0
+
+REWARD; 3322130.97; 110; B; TASK_HIT; 4; 70
+
+TRIAL; 3318753.16; 110; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 59; 0; ABORT_NO_ABORT; 0; NoState; 106; 59; 59; 80; 192; AND; OR; 0; 3318753.16; 3319063.9; 3319553.84; 3320874.11; 3320874.11; 3320408.76; 3321100.86; 3321930.59; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 1182,500 (27.14°,10.21™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 59; 0; ABORT_NO_ABORT; 0; NoState; 89; 59; 83; 15050; 191; AND; OR; 0; 3318753.16; 3319467.25; 3319886.67; 3321217.42; 3321217.42; 3320408.76; 3321417.7; 3321930.59; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 1182,500 (27.14°,10.21™°); 
+CLISTATISTICS; 3318753.16; 110; 3318088.65; 3325335.19; 4933;  1.19;  1.27;  1.37;  1.51; 31.83
+
+
+STIMULUS; 3325335.19; 111; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 3325335.19; 111; 1; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 3325335.19; 111; 2; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 3330224.99; 111; A; TASK_HIT; 3; 0
+
+REWARD; 3330224.99; 111; B; TASK_HIT; 4; 70
+
+TRIAL; 3327348.95; 111; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 60; 0; ABORT_NO_ABORT; 0; NoState; 107; 60; 60; 80; 195; AND; OR; 0; 3327348.95; 3327725.54; 3328210.37; 3329199.51; 3329199.51; 3328737.01; 3329431.77; 3330024.69; 0; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 739,445 (28.94°,156.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 60; 0; ABORT_NO_ABORT; 0; NoState; 90; 60; 84; 15330; 195; AND; OR; 0; 3327348.95; 3327730.46; 3328067.62; 3329335.96; 3329335.96; 3328737.01; 3329512.94; 3330024.69; 0; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 739,445 (28.94°,156.74™°); 
+CLISTATISTICS; 3327348.95; 111; 3326835.58; 3333433.14; 4526;  1.22;  1.27;  1.34;  1.51; 26.77
+
+
+STIMULUS; 3333433.14; 112; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 3333433.14; 112; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 3333433.14; 112; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 3335459.81; 112; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 60; 0; ABORT_NO_ABORT; 0; NoState; 108; 60; 60; 80; 195; AND; OR; 0; 3335459.81; 3335797.27; 3336336.22; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; True; True; True; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 60; 29; NO_HAND_FIX_ACQUISITION; 4; ShowInitialTargets; 90; 60; 84; 15330; 195; AND; OR; 3336939.19; 3335459.81; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 3335459.81; 112; 3334934.53; 3339943.49; 3552;  1.22;  1.27;  1.28;  1.50; 21.71
+
+
+STIMULUS; 3339943.49; 113; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 3339943.49; 113; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 3339943.49; 113; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 3350895.48; 113; RN; DAGDFGR; True; True; True; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; True; False; 3; ABORT_BY_OTHER; 60; 0; ABORT_NO_ABORT; 0; NoState; 109; 60; 60; 80; 195; AND; OR; 0; 3350895.48; 3351245.23; 3351728.76; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; True; True; True; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 60; 29; NO_HAND_FIX_ACQUISITION; 4; ShowInitialTargets; 90; 60; 84; 15330; 195; AND; OR; 3352376.14; 3350895.48; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 3350895.48; 113; 3350122.92; 3355381.4; 3754;  1.17;  1.27;  1.28;  1.50; 21.36
+
+
+STIMULUS; 3355381.4; 114; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 3355381.4; 114; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 3355381.4; 114; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 3357400.89; 114; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 3; ABORT_BY_OTHER; 60; 0; ABORT_NO_ABORT; 0; NoState; 110; 60; 60; 80; 195; AND; OR; 0; 3357400.89; 3357778.02; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; False; False; False; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 60; 26; WRONG_HAND_FIRST; 4; ShowInitialTargets; 90; 60; 84; 15330; 195; AND; OR; 3358274.04; 3357400.89; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 3357400.89; 114; 3356882.43; 3361279.1; 3019;  1.22;  1.27;  1.28;  1.48; 164.71
+
+
+STIMULUS; 3361279.1; 115; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 3361279.1; 115; 1; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 3361279.1; 115; 2; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 3423192.08; 115; A; TASK_HIT; 3; 0
+
+REWARD; 3423192.08; 115; B; TASK_HIT; 4; 70
+
+TRIAL; 3419946.29; 115; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 61; 0; ABORT_NO_ABORT; 0; NoState; 111; 61; 61; 80; 198; AND; OR; 0; 3419946.29; 3420253.6; 3420842; 3421788.09; 3421788.09; 3421367.79; 3422202.32; 3422989.96; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 1182,556 (26.78°,355.88™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 61; 0; ABORT_NO_ABORT; 0; NoState; 91; 61; 85; 15610; 199; AND; OR; 0; 3419946.29; 3420320.95; 3420701.59; 3422311.94; 3422311.94; 3421367.79; 3422472.97; 3422989.96; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 1182,556 (26.78°,355.88™°); 
+CLISTATISTICS; 3419946.29; 115; 3362779.38; 3426396.67; 49434;  1.17;  1.21;  1.22;  1.26; 164.83
+
+
+STIMULUS; 3426396.67; 116; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 3426396.67; 116; 1; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 3426396.67; 116; 2; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 3576410.69; 116; A; TASK_HIT; 3; 0
+
+REWARD; 3576410.69; 116; B; TASK_HIT; 4; 70
+
+TRIAL; 3573349.81; 116; RN; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 62; 0; ABORT_NO_ABORT; 0; NoState; 112; 62; 62; 80; 201; AND; OR; 0; 3573349.81; 3573668.69; 3574155.88; 3575076.61; 3575076.61; 3574670.97; 3575251.8; 3576209.52; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 1182,445 (29.05°,23.17™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 62; 0; ABORT_NO_ABORT; 0; NoState; 92; 62; 86; 15890; 203; AND; OR; 0; 3573349.81; 3573354.32; 3573871.93; 3575404.11; 3575404.11; 3574670.97; 3575684.41; 3576209.52; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 1182,445 (29.05°,23.17™°); 
+CLISTATISTICS; 3573349.81; 116; 3572313.11; 3579615.4; 5044;  1.17;  1.27;  1.30;  1.51; 29.37
+
+
+STIMULUS; 3579615.4; 117; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 3579615.4; 117; 1; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 3579615.4; 117; 2; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 3639775.07; 117; RN; DAGDFGR; True; False; False; True; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 3; ABORT_BY_OTHER; 62; 0; ABORT_NO_ABORT; 0; NoState; 112; 62; 62; 80; 201; AND; OR; 0; 3639775.07; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); Linus; DAGDFGR; True; False; True; False; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 62; 27; WRONG_HAND_SECOND; 4; ShowInitialTargets; 93; 62; 86; 15890; 203; AND; OR; 3640022.46; 3639775.07; 3639776.39; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); 
+CLISTATISTICS; 3639775.07; 117; 3639224.34; 3643028.47; 2648;  1.20;  1.27;  1.28;  1.33; 172.78
+
+
+STIMULUS; 3643028.47; 118; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 3643028.47; 118; 1; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 3643028.47; 118; 2; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 3714163.77; 118; B; MANUAL; 1; 70
+
+REWARD; 3714436.08; 118; B; MANUAL; 1; 70
+
+TRIAL; 0; 118; RN; DAGDFGR; True; False; False; False; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; False; False; 1; 1; left; False; False; 2; ABORT; 62; 32; MANUAL_TRIAL_ABORT; 2; Wait4HandSensors; 112; 62; 62; 80; 201; AND; OR; 3713652.55; 0; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); Linus; DAGDFGR; True; False; False; False; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 62; 32; MANUAL_TRIAL_ABORT; 2; Wait4HandSensors; 93; 62; 88; 16030; 203; AND; OR; 3713652.55; 0; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); 
+REWARD; 3714679.36; 118; B; MANUAL; 2; 70
+
+CLISTATISTICS; 0; 118; 3644529.55; 3715608.33; 56405;  1.17;  1.21;  1.22;  1.22; 51.20
+
+
+STIMULUS; 3715608.33; 119; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 3715608.33; 119; 1; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 3715608.33; 119; 2; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 3741436.47; 119; RN; DAGDFGR; True; False; False; False; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; False; False; 1; 1; left; False; False; 2; ABORT; 62; 29; NO_HAND_FIX_ACQUISITION; 4; ShowInitialTargets; 112; 62; 62; 80; 201; AND; OR; 3742921.86; 3741436.47; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); Linus; DAGDFGR; True; False; False; True; False; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 62; 29; NO_HAND_FIX_ACQUISITION; 4; ShowInitialTargets; 93; 62; 89; 16100; 203; AND; OR; 3742921.86; 3741436.47; 0; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); 
+CLISTATISTICS; 3741436.47; 119; 3740495.72; 3745227.58; 3375;  1.17;  1.26;  1.28;  1.49; 19.37
+
+
+STIMULUS; 3745227.58; 120; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 3745227.58; 120; 1; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 3745227.58; 120; 2; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 3808112.56; 120; RN; DAGDFGR; True; False; False; False; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; False; False; 1; 1; left; False; False; 2; ABORT; 62; 27; WRONG_HAND_SECOND; 4; ShowInitialTargets; 113; 62; 62; 80; 201; AND; OR; 3808354.7; 3808112.56; 3690702.49; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); Linus; DAGDFGR; True; False; False; False; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 62; 27; WRONG_HAND_SECOND; 4; ShowInitialTargets; 94; 62; 89; 16100; 203; AND; OR; 3808354.7; 3808112.56; 3808142.8; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); 
+CLISTATISTICS; 3808112.56; 120; 3807110.81; 3810659.42; 2624;  1.17;  1.26;  1.27;  1.29; 27.35
+
+
+STIMULUS; 3810659.42; 121; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 3810659.42; 121; 1; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 3810659.42; 121; 2; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 3830067.7; 121; B; MANUAL; 1; 70
+
+REWARD; 3830308.12; 121; B; MANUAL; 1; 70
+
+REWARD; 3854135.93; 121; B; TASK_HIT; 2; 70
+
+TRIAL; 3851342.49; 121; RN; DAGDFGR; True; False; False; False; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; False; False; 1; 1; left; False; False; 0; NO_OUTCOME; 62; 0; ABORT_NO_ABORT; 0; NoState; 114; 62; 62; 80; 201; AND; OR; 0; 3851342.49; 3690702.49; 0; 0; 0; 3852747.24; 0; 3853934.61; 0; 20; 960,500 (4.81°,90™°); 739,445 (28.94°,156.74™°); 739,445 (28.94°,156.74™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 63; 0; ABORT_NO_ABORT; 0; NoState; 95; 63; 92; 16380; 205; AND; OR; 0; 3851342.49; 3851868.01; 3852219.6; 3853181.91; 3853181.91; 3852747.24; 3853424.07; 3853934.61; 0; 20; 960,500 (4.81°,90™°); 1182,445 (29.05°,23.17™°); 739,445 (28.94°,156.74™°); 
+CLISTATISTICS; 3851342.49; 121; 3850757.2; 3855940.68; 3385;  1.18;  1.27;  1.45;  1.51; 166.93
+
+
+STIMULUS; 3855940.68; 122; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 3855940.68; 122; 1; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 3855940.68; 122; 2; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 3997889.43; 122; RN; DAGDFGR; True; False; False; False; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; False; False; 1; 1; left; False; False; 3; ABORT_BY_OTHER; 62; 0; ABORT_NO_ABORT; 0; NoState; 115; 62; 62; 80; 201; AND; OR; 0; 3997889.43; 3690702.49; 0; 0; 0; 0; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 1182,500 (27.14°,10.21™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 63; 28; EARLY_HAND_FIX_RELEASE; 5; ShowInitialTargetsHold; 96; 63; 92; 16380; 205; AND; OR; 3998845.74; 3997889.43; 3998071.32; 3998477.54; 3998845.74; 3998825.09; 0; 0; 0; 3998825.09; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 1182,500 (27.14°,10.21™°); 
+CLISTATISTICS; 3997889.43; 122; 3997291.76; 4001151.56; 2602;  1.20;  1.27;  1.29;  1.47; 162.75
+
+
+STIMULUS; 4001151.56; 123; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 4001151.56; 123; 1; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 4001151.56; 123; 2; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TRIAL; 4011719.64; 123; RN; DAGDFGR; True; False; False; False; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; False; False; 1; 1; left; False; False; 2; ABORT; 62; 31; NO_HAND_TARGET_ACQUISITION; 13; ShowChoiceTargets; 116; 62; 62; 80; 201; AND; OR; 4014149.33; 4011719.64; 3690702.49; 0; 0; 0; 4012672.89; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 1182,500 (27.14°,10.21™°); Linus; DAGDFGR; True; False; False; False; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 2; ABORT; 63; 31; NO_HAND_TARGET_ACQUISITION; 13; ShowChoiceTargets; 97; 63; 92; 16380; 205; AND; OR; 4014149.33; 4011719.64; 4011720.98; 4012146.07; 4013550.69; 4013550.69; 4012672.89; 0; 0; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 1182,500 (27.14°,10.21™°); 
+CLISTATISTICS; 4011719.64; 123; 4002652; 4016453.95; 10189;  1.17;  1.21;  1.24;  1.34; 159.18
+
+
+STIMULUS; 4016453.95; 124; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 4016453.95; 124; 1; 1182,500 (27.14°,10.21™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 4016453.95; 124; 2; 739,500 (27.02°,169.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 4115876.76; 124; B; MANUAL; 1; 70
+
+REWARD; 4116179.58; 124; B; MANUAL; 1; 70
+
+REWARD; 4128716.37; 124; B; TASK_HIT; 2; 70
+
+TRIAL; 4125923.59; 124; RN; DAGDFGR; True; False; False; False; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; False; False; 1; 1; left; False; False; 0; NO_OUTCOME; 62; 0; ABORT_NO_ABORT; 0; NoState; 117; 62; 62; 80; 201; AND; OR; 0; 4125923.59; 3690702.49; 0; 0; 0; 4127261.46; 0; 4128515.73; 0; 20; 960,500 (4.81°,90™°); 1182,500 (27.14°,10.21™°); 1182,500 (27.14°,10.21™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 64; 0; ABORT_NO_ABORT; 0; NoState; 98; 64; 95; 16660; 207; AND; OR; 0; 4125923.59; 4126363.83; 4126748.88; 4127806.23; 4127806.23; 4127261.46; 4128000.31; 4128515.73; 0; 20; 960,500 (4.81°,90™°); 739,500 (27.02°,169.74™°); 1182,500 (27.14°,10.21™°); 
+CLISTATISTICS; 4125923.59; 124; 4122043.46; 4130520.13; 5976;  1.17;  1.22;  1.28;  1.48; 159.13
+
+
+STIMULUS; 4130520.13; 125; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 4130520.13; 125; 1; 739,556 (26.66°,184.14™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 4130520.13; 125; 2; 1182,556 (26.78°,355.88™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+REWARD; 4269209.47; 125; B; TASK_HIT; 2; 70
+
+TRIAL; 4266801.31; 125; RN; DAGDFGR; True; False; False; False; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; False; False; 1; 1; left; False; False; 0; NO_OUTCOME; 62; 0; ABORT_NO_ABORT; 0; NoState; 118; 62; 62; 80; 201; AND; OR; 0; 4266801.31; 3690702.49; 0; 0; 0; 4267971.97; 0; 4269008.8; 0; 20; 960,500 (4.81°,90™°); 739,556 (26.66°,184.14™°); 739,556 (26.66°,184.14™°); Linus; DAGDFGR; True; False; False; True; True; True; True; 3; InformedChoice; 5; BOSMATRIXV01; 10; False; True; True; 1; 1; left; False; False; 1; REWARD; 65; 0; ABORT_NO_ABORT; 0; NoState; 99; 65; 96; 16800; 209; AND; OR; 0; 4266801.31; 4267088.75; 4267450.19; 4268377; 4268377; 4267971.97; 4268497.21; 4269008.8; 0; 20; 960,500 (4.81°,90™°); 1182,556 (26.78°,355.88™°); 739,556 (26.66°,184.14™°); 
+CLISTATISTICS; 4266801.31; 125; 4132378; 4271013.94; 109813;  1.17;  1.21;  1.22;  1.22; 31.17
+
+
+STIMULUS; 4271013.94; 126; 0; 960,500 (4.81°,90™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2; LeftHandTouchTargetBrightV2; True; False
+STIMULUS; 4271013.94; 126; 1; 1182,445 (29.05°,23.17™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_RedRing; LeftHandTouchTargetBrightV2_RedRing; False; True
+STIMULUS; 4271013.94; 126; 2; 739,445 (28.94°,156.74™°); 56,56 (6.74°,6.74°); LeftHandTouchTargetDimV2_YellowRing; LeftHandTouchTargetBrightV2_YellowRing; False; True
+
+
+
+TOTALSHEADER; Timestamp; Name; TrialType; TrialTypeString; NumTrials; NumHoldInitiatedTrials; NumTouchInitiatedTrials; NumCorrectTrials; NumCorrectHoldInitiatedTrials; NumCorrectTouchInitiatedTrials; NumAbortedTrials; NumTotalRewardPulses; NumEarnedRewardPulses; TotalRewardActiveDur_ms; PercentCorrectTrials; PercentCorrectHoldInitiatedTrials; PercentCorrectTouchInitiatedTrials; 
+TOTALSTYPES; clTime; String; Int32; String; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Int32; Double; Double; Double; 
+TOTALS; 4329079.15; A; 0; AllTrialTypes; 125; 236; 106; 62; 62; 62; 13; 201; 201; 80; 49; 26; 58.4905660377358; 
+TOTALS; 4329079.15; B; 0; AllTrialTypes; 125; 198; 85; 65; 65; 65; 60; 241; 209; 14630; 52; 32; 76.4705882352941; 
+TOTALS; 4329079.15; A; 3; InformedChoice; 125; 236; 106; 62; 62; 62; 13; 201; 201; 80; 49; 26; 58.4905660377358; 
+TOTALS; 4329079.15; B; 3; InformedChoice; 125; 198; 85; 65; 65; 65; 60; 241; 209; 14630; 52; 32; 76.4705882352941; 
+
+TIMINGHEADER; Timestamp; SystemTime
+TIMINGTYPES; clTime; String
+TIMING; 4329079.15; 20190612T164755.755653
+
+
