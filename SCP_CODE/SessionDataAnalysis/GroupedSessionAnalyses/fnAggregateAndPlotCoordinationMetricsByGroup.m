@@ -429,7 +429,7 @@ if (generate_session_reports)
 	data_struct_list = cell([length(group_struct_list) 1]);
 	for i_group = 1 : length(group_struct_list)
 		
-		if (i_group == 29)
+		if (i_group == 19)
 			disp('Doh...');
 		end
 		group_concatenated_pertrial_data = []; % we need this fresh for every group

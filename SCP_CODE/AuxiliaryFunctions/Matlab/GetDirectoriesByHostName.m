@@ -95,8 +95,11 @@ else
 	%eLife
 	cur_dir = pwd;
 	cd(start_dir);
-	DS.local.SCP_DATA_BaseDir = fullfile(pwd, '..', '..', '..');
-	DS.local.SCP_CODE_BaseDir = fullfile(pwd, '..', '..', '..', 'SCP_CODE');
+	% make the path shorter by removing superflous indirections
+	cd(fullfile('..', '..', '..'));
+	
+	DS.local.SCP_DATA_BaseDir = fullfile(pwd);
+	DS.local.SCP_CODE_BaseDir = fullfile(pwd, 'SCP_CODE');
 	DS.remote.SCP_DATA_BaseDir =  DS.local.SCP_DATA_BaseDir;
 	DS.remote.SCP_CODE_BaseDir = DS.local.SCP_CODE_BaseDir;
 	cd(cur_dir);
